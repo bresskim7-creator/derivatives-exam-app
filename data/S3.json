@@ -31,7 +31,8 @@
     },
     "coach_message_short": "장외파생상품 = 사적 계약 → 유동성 낮고, 신용리스크 있고, 계약관계 복잡!",
     "source_ref": "제1회 모의고사 제3과목 Q51",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "장외파생상품은 거래소 없이 사적 계약이라는 게 핵심이에요. 그래서 거래소가 보장 안 하고, 가격정보도 없어서 가치평가모형으로 평가해야 하고, 유동성도 낮고, 신용리스크에 노출돼요. 장내는 정반대라고 생각하면 돼요!"
   },
   {
     "question_id": "S3-MOCK1-052",
@@ -65,7 +66,8 @@
     },
     "coach_message_short": "VaR 초과손실 확률 = 100% - 신뢰수준! 99% 신뢰수준이면 1%입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q52",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "VaR 신뢰수준 문제는 정규분포에서 Z값을 찾는 거예요. 95% 신뢰수준이면 Z=1.645(또는 1.65), 99%면 Z=2.33이에요. 공식: VaR = 신뢰계수 × 자산가치 × 변동성 × √기간(일) 이니까 대입하면 돼요!"
   },
   {
     "question_id": "S3-MOCK1-053",
@@ -99,7 +101,8 @@
     },
     "coach_message_short": "분산효과 = 개별 VaR 합계 - 포트폴리오 VaR! 공식에 상관계수를 대입하세요.",
     "source_ref": "제1회 모의고사 제3과목 Q53",
-    "estimated_sec": 90
+    "estimated_sec": 90,
+    "coach_message_long": "VaR의 한계를 묻는 문제예요. VaR는 정규분포를 가정하는데 실제는 두꺼운 꼬리가 있어요. 또 옵션처럼 비선형 상품은 델타로 근사하면 감마 영향을 못 봐요. 그래서 스트레스 테스트, 백테스팅이 필요한 거죠!"
   },
   {
     "question_id": "S3-MOCK1-054",
@@ -134,7 +137,8 @@
     },
     "coach_message_short": "기대손실 = 익스포저 × PD × LGD! 손실률(LGD) = 1 - 회수율입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q54",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "신용리스크의 기대손실 공식을 암기하세요! EL = PD × EAD × LGD = 채무불이행확률 × 노출금액 × (1-회수율). 세 가지를 모두 곱하는 거고, 기대외손실(UL)은 또 다른 공식이니까 혼동하면 안 돼요!"
   },
   {
     "question_id": "S3-MOCK1-055",
@@ -168,7 +172,8 @@
     },
     "coach_message_short": "변동금리가 고정금리에서 멀어지는 현상 = 금리확산효과(Volatility Effect)!",
     "source_ref": "제1회 모의고사 제3과목 Q55",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "운영리스크는 4가지 유형: (1)인적리스크-사람 실수나 사기, (2)시스템리스크-해킹·바이러스, (3)프로세스리스크-내부절차 부실, (4)외부사건리스크-정치·법적 변화. 신용리스크는 운영리스크가 아니라는 점을 잊으면 안 돼요!"
   },
   {
     "question_id": "S3-MOCK1-056",
@@ -202,7 +207,8 @@
     },
     "coach_message_short": "VaR의 가장 큰 한계 = 정상여건에서만 적용 가능! 극단적 상황에는 부적합합니다.",
     "source_ref": "제1회 모의고사 제3과목 Q56",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "변동성 추정 방법 중 리스크메트릭스(EWMA)는 오래된 자료에 낮은 가중치를 주는 거예요. 단순이동평균은 모든 과거 자료에 같은 가중치, 내재변동성은 옵션가격으로 역산해요. 각각의 특징을 구분하세요!"
   },
   {
     "question_id": "S3-MOCK1-057",
@@ -236,7 +242,8 @@
     },
     "coach_message_short": "비선형성+두터운꼬리+극단상황 모두 고려 = 몬테카를로! 단, 계산비용이 큽니다.",
     "source_ref": "제1회 모의고사 제3과목 Q57",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "포트폴리오 VaR와 개별 VaR의 관계: 상관계수가 -1(완전 역관계)일 때 분산효과가 가장 커서 리스크가 상쇄돼요. 1(완전 비례)일 때는 분산효과가 없어요. 음수 상관계수일수록 분산효과가 커져요!"
   },
   {
     "question_id": "S3-MOCK1-058",
@@ -270,7 +277,8 @@
     },
     "coach_message_short": "예측 가능한 패턴 = 변동성 군집현상이지, 내재변동성이 아닙니다!",
     "source_ref": "제1회 모의고사 제3과목 Q58",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "콜옵션의 VaR = 기초자산 VaR × 델타로 계산해요. 주의할 점은 옵션 가격이 아니라 기초자산 가격을 써야 한다는 거예요. 또 델타-노말 방법은 감마를 고려 못 해서 옵션은 정확도가 떨어져요!"
   },
   {
     "question_id": "S3-MOCK1-059",
@@ -304,7 +312,8 @@
     },
     "coach_message_short": "통화선물(달러·엔·유로·위안) = 인수도결제! 나머지는 대부분 현금결제입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q59",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금리스왑의 VaR는 고정금리와 변동금리 차이로 계산돼요. Payer 스왑(고정금리 지급) VaR는 변동금리 VaR - 고정금리 VaR로, Receiver 스왑은 반대예요. 스왑은 원금을 교환하지 않으니까 신용리스크가 대출보다 작아요!"
   },
   {
     "question_id": "S3-MOCK1-060",
@@ -338,7 +347,8 @@
     },
     "coach_message_short": "착오거래 반대매매 = 단일가호가! '당일 종가'가 아닙니다.",
     "source_ref": "제1회 모의고사 제3과목 Q60",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "VaR 측정방법 3가지: (1)분석적 분산-공분산: 가장 빠르지만 옵션 부정확. (2)역사적 시뮬레이션: 실제 분포 반영하지만 과거 의존적. (3)몬테카를로: 가장 정확하지만 시간·비용 많이 들어요!"
   },
   {
     "question_id": "S3-MOCK1-061",
@@ -373,7 +383,8 @@
     },
     "coach_message_short": "옵션매수 = 전액 현금! 옵션매도 = 대용증권도 가능! 매수·매도 헷갈리지 마세요.",
     "source_ref": "제1회 모의고사 제3과목 Q61",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "장외파생상품의 신용리스크 노출금액 = 현재노출(CE) + 잠재노출(PE)이에요. 현재노출은 상대방 채무불이행 시 계약 대체 비용, 잠재노출은 미래에 리스크가 증가할 가능성을 본 거예요. 둘 다 더해야 전체 노출이 되는 거죠!"
   },
   {
     "question_id": "S3-MOCK1-062",
@@ -408,7 +419,8 @@
     },
     "coach_message_short": "금선물·돈육선물 전용계좌 기본예탁금 = 50만원! 10만원이 아닙니다.",
     "source_ref": "제1회 모의고사 제3과목 Q62",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금리확산효과는 시간 경과에 따라 변동금리가 고정금리에서 멀어지는 현상이에요. 스왑에서는 초기에 확산효과(리스크 증가)가 크다가 만기 가까워지면서 상각효과(리스크 감소)가 지배해요. 통화스왑은 원금 교환 때문에 항상 확산효과가 이겨요!"
   },
   {
     "question_id": "S3-MOCK1-063",
@@ -442,7 +454,8 @@
     },
     "coach_message_short": "갱신차금 = (당일 정산가격 - 전일 정산가격) × 전일 미결제약정수량 × 거래승수!",
     "source_ref": "제1회 모의고사 제3과목 Q63",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "스트레스 테스트(위기상황분석)는 극단적 상황에서 포트폴리오가 어떻게 되는지 보는 거예요. VaR와 달리 정규분포를 가정하지 않고, '금리가 500bp 올라가면?' 같은 시나리오를 분석해요. 경영진에 보고하고 정책에 반영해야 해요!"
   },
   {
     "question_id": "S3-MOCK1-064",
@@ -476,7 +489,8 @@
     },
     "coach_message_short": "윤리경영은 소극적이 아니라 적극적으로 변화! 경영전략상 필수입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q64",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "직무윤리의 필요성을 묻는 문제예요. 윤리경영은 사회적 압박에 의해 주도적으로 변화하는 거지, 소극적이 아니에요. 금융투자회사는 투자자 보호 의무와 함께 선관의무를 다해야 해요!"
   },
   {
     "question_id": "S3-MOCK1-065",
@@ -510,7 +524,8 @@
     },
     "coach_message_short": "금소법 보호대상 = 금융상품(투자성+예금성+대출성+보험성)! 자본시장법보다 범위가 넓습니다.",
     "source_ref": "제1회 모의고사 제3과목 Q65",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금융소비자보호법은 금융회사가 아니라 '금융소비자'를 보호하는 법이에요. 금융투자업자가 금융상품에 대해 설명의무를 지고, 투자자의 투자경험과 재무상태를 고려해서 적절한 상품만 권유해야 해요!"
   },
   {
     "question_id": "S3-MOCK1-066",
@@ -544,7 +559,8 @@
     },
     "coach_message_short": "퇴직 후에도 비밀정보 보호 의무 지속! 서면 권한 없이 공개 불가입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q66",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "투자권유할 때 일반투자자와 전문투자자를 구분해야 해요. 일반투자자에게는 '적합성' 원칙(재무상태·투자목적·투자경험 조사)을 적용하고, 파생상품 같은 위험 상품은 '적정성' 원칙을 추가로 적용해요!"
   },
   {
     "question_id": "S3-MOCK1-067",
@@ -578,7 +594,8 @@
     },
     "coach_message_short": "과당매매 = 회사에겐 수수료 ↑, 고객에겐 비용 ↑ → 이해상충 최대!",
     "source_ref": "제1회 모의고사 제3과목 Q67",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "투자거부자 재권유 규칙: (1)동일한 상품: 1개월이 지나야 가능, (2)다른 종류 상품: 언제든 가능. '1주일'이나 '15일'이 아니라 '1개월'이라는 게 포인트예요!"
   },
   {
     "question_id": "S3-MOCK1-068",
@@ -613,7 +630,8 @@
     },
     "coach_message_short": "투자자정보 = 투자목적 + 재산상황 + 투자경험! 소비성향은 아닙니다.",
     "source_ref": "제1회 모의고사 제3과목 Q68",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "부당권유 금지 행위는 3가지: (1)거짓 내용 알리기, (2)불확실한 사항을 단정적으로 말하기, (3)권유 거부자에게 재권유. 특히 (3)은 예외가 있으니까 재권유 가능한 경우를 구분해야 해요!"
   },
   {
     "question_id": "S3-MOCK1-069",
@@ -648,7 +666,8 @@
     },
     "coach_message_short": "파생상품 핵심 원칙 = 적합성 + 적정성 + KYC + 설명의무! 자기매매금지는 무관합니다.",
     "source_ref": "제1회 모의고사 제3과목 Q69",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "내부통제기준은 이사회에서 정해요. 준법감시인이 아니라 이사회라는 게 중요해요. 내부통제체제를 구축·운영하는 것도 이사회의 책임이고, 금융위는 변경 권고만 할 수 있어요!"
   },
   {
     "question_id": "S3-MOCK1-070",
@@ -682,7 +701,8 @@
     },
     "coach_message_short": "손실보전 = 사전·사후 모두 금지! 예외: 위법행위 불분명 시 사적화해 보상만 허용.",
     "source_ref": "제1회 모의고사 제3과목 Q70",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "준법감시인 임면(임명·해임)은 이사회 결의가 필요해요. 그리고 금융위원회에 통보도 해야 해요. 준법감시인은 내부통제 기준 개정은 못 하고, 기존 기준을 감시하는 역할만 해요!"
   },
   {
     "question_id": "S3-MOCK1-071",
@@ -717,7 +737,8 @@
     },
     "coach_message_short": "내부통제위원회 의장 = 대표이사! 준법감시인이 아닙니다.",
     "source_ref": "제1회 모의고사 제3과목 Q71",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "개인정보보호법은 개인정보의 수집·이용·제공에 엄격한 규제를 둬요. 고객 동의 없이 정보를 활용하면 안 되고, 정보 누출 시 회사가 책임을 져야 해요. 정보 보호는 금융회사의 중요한 의무예요!"
   },
   {
     "question_id": "S3-MOCK1-072",
@@ -752,7 +773,8 @@
     },
     "coach_message_short": "내부통제 = 임직원 자율 실천이 핵심! 감독기관·주주의 피동적 운영이 아닙니다.",
     "source_ref": "제1회 모의고사 제3과목 Q72",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "고객확인제도(KYC)는 고객의 신원과 자금 출처를 확인하는 거예요. 새 고객뿐 아니라 기존 고객도 정기적으로 재확인해야 하고, 의심거래는 보고해야 해요. 자금세탁방지의 첫 단계예요!"
   },
   {
     "question_id": "S3-MOCK1-073",
@@ -787,7 +809,8 @@
     },
     "coach_message_short": "투자광고규정 위반 = 1년/3천만원! 나머지(부당권유·등록전권유·손실보전)는 3년/1억원입니다.",
     "source_ref": "제1회 모의고사 제3과목 Q73",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "자금세탁 3단계: (1)배치-불법자금을 금융시스템에 투입, (2)계층화-거래로 출처를 숨김, (3)통합-합법적 자금으로 보이게 함. 각 단계의 순서를 정확히 기억하세요!"
   },
   {
     "question_id": "S3-MOCK1-074",
@@ -821,7 +844,8 @@
     },
     "coach_message_short": "개인정보보호법 = 일반법 + 법정손해배상 + 징벌적배상(5배) + 개인처벌 모두 있음!",
     "source_ref": "제1회 모의고사 제3과목 Q74",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "선관의무는 금융투자업자가 고객의 이익을 최우선으로 생각해야 한다는 의무예요. 직원이 퇴직한 후에도 계속 적용될 수 있어요. 퇴직 전에 알게 된 고객정보나 내부정보를 사용하면 법적 책임이 있어요!"
   },
   {
     "question_id": "S3-MOCK1-075",
@@ -857,7 +881,8 @@
     },
     "coach_message_short": "자금세탁 3단계 = 예치 → 은폐 → 합법화! 순서를 바꿔 출제하니 주의하세요.",
     "source_ref": "제1회 모의고사 제3과목 Q75",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "KRX 파생상품시장의 휴장일은 토요일, 일요일, 공휴일이에요. 특별히 지정한 예비일도 있을 수 있으니까 거래소 공지를 확인하는 게 중요해요. 거래시간(9시~15시45분)도 정확히 알아둬야 해요!"
   },
   {
     "question_id": "S3-MOCK2-051",
@@ -892,7 +917,8 @@
     },
     "coach_message_short": "BIS 3대 리스크 = 시장 + 신용 + 운영! 유동성리스크는 별도 관리!",
     "source_ref": "제2회 모의고사 제3과목 Q51",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "장외파생상품의 신용증대제도를 알아야 해요. 네팅협약·포지션한도·담보요구·계약종료조항·이자율조정 등으로 신용리스크를 관리해요. VaR 관리는 시장리스크 관리 방법이지 신용증대제도가 아니라는 점을 잊으면 안 돼요!"
   },
   {
     "question_id": "S3-MOCK2-052",
@@ -926,7 +952,8 @@
     },
     "coach_message_short": "VaR 변환 = 기존VaR × (새 Z / 기존 Z) × √(새 기간 / 기존 기간)!",
     "source_ref": "제2회 모의고사 제3과목 Q52",
-    "estimated_sec": 90
+    "estimated_sec": 90,
+    "coach_message_long": "역사적 시뮬레이션의 장점은 위험요인 분포·변동성·상관계수의 추정이 필요 없다는 거예요. 실제 가격변화를 그대로 이용해서 비선형 자산도 정확히 평가할 수 있어요. 단점은 과거 자료에 의존한다는 점이에요!"
   },
   {
     "question_id": "S3-MOCK2-053",
@@ -960,7 +987,8 @@
     },
     "coach_message_short": "옵션 매도 = 채무만 존재 → 신용리스크 노출금액 0!",
     "source_ref": "제2회 모의고사 제3과목 Q53",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "몬테카를로 시뮬레이션의 단점은 시간과 비용이 과다하다는 거예요. 완전가치평가모형이 필요하고 계산이 복잡하지만, 가장 정확하게 비선형 자산의 위험을 평가할 수 있어요!"
   },
   {
     "question_id": "S3-MOCK2-054",
@@ -995,7 +1023,8 @@
     },
     "coach_message_short": "유동성위험 ≠ 결제위험! 유동성 = 마감비용, 결제 = 상대방 미지급!",
     "source_ref": "제2회 모의고사 제3과목 Q54",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "기대외손실(UL)은 기대손실과 다른 개념이에요. UL = 신뢰수준(신뢰계수) × √(PD×(1-PD)) × EAD × LGD로 계산해요. 기대손실은 평균, 기대외손실은 그 이상의 손실 가능성을 보는 거죠!"
   },
   {
     "question_id": "S3-MOCK2-055",
@@ -1028,7 +1057,8 @@
     },
     "coach_message_short": "반대포지션 VaR = 매도 쪽에 (-)! 공식에 대입 후 루트!",
     "source_ref": "제2회 모의고사 제3과목 Q55",
-    "estimated_sec": 90
+    "estimated_sec": 90,
+    "coach_message_long": "신용증대제도 중 계약종료조항(credit trigger)은 상대방 신용도나 유동성이 하락하면 계약을 종료할 수 있는 권리예요. 이자율조정은 신용리스크를 반영해서 스왑금리를 조정하는 거고요!"
   },
   {
     "question_id": "S3-MOCK2-056",
@@ -1062,7 +1092,8 @@
     },
     "coach_message_short": "리스크관리 위한 편입 = 한계 VaR 낮은 자산! A(350) > B(250)이니 B가 유리!",
     "source_ref": "제2회 모의고사 제3과목 Q56",
-    "estimated_sec": 75
+    "estimated_sec": 75,
+    "coach_message_long": "선물 헤지거래의 베이시스 위험을 이해해야 해요. 헤지 시 베이시스와 청산 시 베이시스가 변동하면 완벽한 헤지가 안 되는 거죠. 교차헤지는 기초자산이 안 맞으면 더 위험해요!"
   },
   {
     "question_id": "S3-MOCK2-057",
@@ -1095,7 +1126,8 @@
     },
     "coach_message_short": "포지션 마감 비용 = 유동성리스크! 팔고 싶을 때 못 파는 위험!",
     "source_ref": "제2회 모의고사 제3과목 Q57",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "롤오버(Roll-over)는 선물 만기를 연장하는 거예요. 손실이 발생한 포지션을 롤오버하면 추가자금이 필요해서 유동성 위험에 처할 수 있어요. 특히 손실이 크면 계약 청산까지 가능해요!"
   },
   {
     "question_id": "S3-MOCK2-058",
@@ -1128,7 +1160,8 @@
     },
     "coach_message_short": "정치·경제 근본 변화 = 전략리스크! 유동성과 헷갈리지 마세요!",
     "source_ref": "제2회 모의고사 제3과목 Q58",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "파생결합증권(ELS) 발행사의 백투백헤지는 발행한 증권과 동일한 구조의 스왑을 체결해서 헤지하는 거예요. Fully-funded 스왑(원금 교환)은 신용위험이 크고, Unfunded 스왑(원금 미교환)은 유동성위험이 커요!"
   },
   {
     "question_id": "S3-MOCK2-059",
@@ -1162,7 +1195,8 @@
     },
     "coach_message_short": "파생상품업무책임자 = 1인(임원급) 이상! 2인이 아닙니다!",
     "source_ref": "제2회 모의고사 제3과목 Q59",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "파생결합증권의 동적헤지는 기초자산을 직접 거래해서 수익구조를 복제하는 거예요. 시간에 따라 헤지 포지션을 조정(리밸런싱)해야 하고, 델타 중립을 유지하려고 해요. 감마·베가 위험을 헤지하려면 옵션을 사용해요!"
   },
   {
     "question_id": "S3-MOCK2-060",
@@ -1196,7 +1230,8 @@
     },
     "coach_message_short": "미국달러선물만 현금결제! 달러옵션·국채선물·금선물은 인수도결제!",
     "source_ref": "제2회 모의고사 제3과목 Q60",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELS(파생결합증권)의 가치는 기초자산 가격·변동성·금리·상관관계의 영향을 받아요. 기초자산 가격 상승→ELS 가치 상승, 변동성 상승→ELS 가치 하락, 금리 상승→ELS 가치 하락, 상관관계 상승→ELS 가치 상승이에요!"
   },
   {
     "question_id": "S3-MOCK2-061",
@@ -1230,7 +1265,8 @@
     },
     "coach_message_short": "장외파생상품 거래 시 주권상장법인 = 일반투자자! 전문 아닙니다!",
     "source_ref": "제2회 모의고사 제3과목 Q61",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "현재노출이 음수인 경우(상대방이 우위인 상태) 현재노출은 0으로 설정돼요. 내가 이익이 있을 때만 신용리스크가 발생한다는 뜻이죠. 잠재노출은 액면금액 × 신용환산율로 미래 위험을 본 거예요!"
   },
   {
     "question_id": "S3-MOCK2-062",
@@ -1264,7 +1300,8 @@
     },
     "coach_message_short": "서명등록 = 본인 직접! 상임(법정)대리인만 가능, 일반 위임장 대리인은 불가!",
     "source_ref": "제2회 모의고사 제3과목 Q62",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금리스왑의 손실 요건은 3가지예요. (1)현금흐름이 고정금리와 변동금리 차이로 결정될 것, (2)거래상대방의 계약 가치가 음수일 것, (3)상대방이 채무불이행할 것. 네팅협약은 손실 요건이 아니라 신용증대제도예요!"
   },
   {
     "question_id": "S3-MOCK2-063",
@@ -1298,7 +1335,8 @@
     },
     "coach_message_short": "한국거래소 창립일 = 휴장일 아님! 12/31, 근로자의 날은 휴장!",
     "source_ref": "제2회 모의고사 제3과목 Q63",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "운영리스크 손실의 분류: (1)법적지불책임, (2)규제조치, (3)자산손실, (4)손해배상, (5)청구권손실, (6)가치저하 등. 운영리스크는 정량화할 수 있는 리스크이고, 평판리스크는 정성적 리스크예요!"
   },
   {
     "question_id": "S3-MOCK2-064",
@@ -1332,7 +1370,8 @@
     },
     "coach_message_short": "금리·변동여부 = 대출성 상품 설명사항! 투자성 상품과 혼동 주의!",
     "source_ref": "제2회 모의고사 제3과목 Q64",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "직무윤리에서 말하는 선관의무는 고객 개개인의 이익을 최우선으로 고려해야 한다는 의무예요. 회사 이익이나 자신의 이익을 우선으로 하면 선관의무 위반이에요!"
   },
   {
     "question_id": "S3-MOCK2-065",
@@ -1366,7 +1405,8 @@
     },
     "coach_message_short": "투자상담업무종사자 = 당사자도, 이해관계자 대리인도 모두 금지!",
     "source_ref": "제2회 모의고사 제3과목 Q65",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "금융소비자는 금융투자상품을 구매하는 개인을 말해요. 금융회사와는 다른 개념이고, 소비자 보호가 목적이에요. 금융소비자보호법상 설명의무를 다하지 않으면 법적 책임이 있어요!"
   },
   {
     "question_id": "S3-MOCK2-066",
@@ -1400,7 +1440,8 @@
     },
     "coach_message_short": "투자자가 이해 못 하면 → 투자권유 중지! 계속하는 것이 아닙니다!",
     "source_ref": "제2회 모의고사 제3과목 Q66",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "일반투자자에게는 적합성·적정성·설명의무를 다해야 해요. 파생상품은 고위험 상품이므로 적정성 심사가 필수이고, 위험 수준·손실 가능성을 명확히 설명해야 해요!"
   },
   {
     "question_id": "S3-MOCK2-067",
@@ -1434,7 +1475,8 @@
     },
     "coach_message_short": "선관의무 = 퇴직 후에도 상당 기간 지속! 퇴직과 함께 끝나지 않습니다!",
     "source_ref": "제2회 모의고사 제3과목 Q67",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "투자권유를 거부한 투자자에게 (1)1개월 경과 또는 (2)다른 종류 상품에 대해서는 재권유 가능해요. '거부'와 '거절'을 구분하고, 정확한 기간을 기억해야 해요!"
   },
   {
     "question_id": "S3-MOCK2-068",
@@ -1468,7 +1510,8 @@
     },
     "coach_message_short": "보고 = 사실 통지만으로 부족! 매매시기·종목·수량·가격 등 구체적으로!",
     "source_ref": "제2회 모의고사 제3과목 Q68",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "불초청 투자권유 금지 상품: 일반투자자는 장외파생상품·장내파생상품·사모펀드·고난도상품 금지, 전문투자자는 장외파생상품만 금지. 선전문투사사(선물회사 전속)는 장외파생상품만 금지예요!"
   },
   {
     "question_id": "S3-MOCK2-069",
@@ -1502,7 +1545,8 @@
     },
     "coach_message_short": "이해상충 대외활동 = 무조건 금지 아님! 사전승인 받으면 가능!",
     "source_ref": "제2회 모의고사 제3과목 Q69",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "내부통제기준의 제정·개정은 이사회 결의 후 금융위에 통보하는 거예요. 금융위는 기준 변경을 '권고'할 수 있지만 강제할 수 없어요. 이사회가 최종 결정권을 가져요!"
   },
   {
     "question_id": "S3-MOCK2-070",
@@ -1536,7 +1580,8 @@
     },
     "coach_message_short": "내부통제기준 제정·변경 = 이사회 결의! 주주총회가 아닙니다!",
     "source_ref": "제2회 모의고사 제3과목 Q70",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "준법감시인의 역할: 내부통제 기준의 준수 감시, 불법·부당 행위 적발. 하지만 기준을 '정한다'는 건 아니고, 기존 기준을 '감시'하는 역할만 해요!"
   },
   {
     "question_id": "S3-MOCK2-071",
@@ -1570,7 +1615,8 @@
     },
     "coach_message_short": "처리정지·정정·삭제 요구권 = 정보주체! 개인정보처리자가 아닙니다!",
     "source_ref": "제2회 모의고사 제3과목 Q71",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "개인정보보호법 위반 시 처벌이 있어요. 정보 수집 시 동의를 받아야 하고, 보호 의무를 다하지 않으면 회사가 책임을 져요. 고객의 민감정보(금융·건강 정보)는 더 엄격하게 보호해야 해요!"
   },
   {
     "question_id": "S3-MOCK2-072",
@@ -1604,7 +1650,8 @@
     },
     "coach_message_short": "윤리경영 = 경제적 이득! 손해가 아니라 경영성과 개선!",
     "source_ref": "제2회 모의고사 제3과목 Q72",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "의심거래 보고는 자금세탁방지의 핵심이에요. 거래액·거래 패턴·거래자 정보 등이 의심되면 즉시 보고해야 해요. 보고 의무를 다하지 않으면 회사와 직원이 함께 책임을 져요!"
   },
   {
     "question_id": "S3-MOCK2-073",
@@ -1637,7 +1684,8 @@
     },
     "coach_message_short": "중도상환수수료 금지 = 3년 경과 후! 3년 이내는 부과 가능!",
     "source_ref": "제2회 모의고사 제3과목 Q73",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "자금세탁 적발 체계: 고객확인(KYC) → 의심거래 보고 → 기록 유지. 이 세 가지를 시스템적으로 관리해야 자금세탁을 효과적으로 방지할 수 있어요!"
   },
   {
     "question_id": "S3-MOCK2-074",
@@ -1671,7 +1719,8 @@
     },
     "coach_message_short": "자금세탁 위험 낮아도 신원확인은 필수! 간소화는 가능, 생략은 불가!",
     "source_ref": "제2회 모의고사 제3과목 Q74",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "대외활동 규제는 이해충돌을 방지하기 위한 거예요. 금융투자업자 임직원은 회사 승인 없이 다른 금융기관에서 일할 수 없어요. 부업도 제한될 수 있으니까 사전 승인을 받아야 해요!"
   },
   {
     "question_id": "S3-MOCK2-075",
@@ -1706,6 +1755,7 @@
     },
     "coach_message_short": "자금세탁방지 3대 제도 = 고객확인 + 의심거래보고 + 고액현금거래보고!",
     "source_ref": "제2회 모의고사 제3과목 Q75",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "거래제도의 핵심: 거래시간(9시~15시45분), 기본예탁금(필수), 일일정산(당일차금+갱신차금), 추가증거금(손실 시). 최종거래일은 금리·통화는 11시30분, 주식은 15시20분에 마감돼요!"
   }
 ]

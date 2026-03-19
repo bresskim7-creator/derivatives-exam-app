@@ -31,7 +31,8 @@
     },
     "coach_message_short": "통화스왑 만기 환율 = 초기시점 환율! 선물환율이 아닙니다.",
     "source_ref": "제1회 모의고사 제2과목 Q26",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "스왑은 미래의 현금흐름을 교환해요. 핵심: 통화스왑은 원금도 교환하지만 금리스왑은 원금 없이 이자만 교환한다는 거! 또한 통화스왑의 만기 원금환율은 선물환율이 아니라 거래 시점의 환율이에요. 헷갈리지 마세요."
   },
   {
     "question_id": "S2-MOCK1-027",
@@ -66,7 +67,8 @@
     },
     "coach_message_short": "스왑가격 = 고정금리! 고정금리를 주고 변동금리를 받는 구조입니다.",
     "source_ref": "제1회 모의고사 제2과목 Q27",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "스왑가격(Swap Price) = 고정금리를 말해요. 이 고정금리를 지급하고 받는 건 변동금리(LIBOR나 CD금리)예요. 이건 무조건 정확히 알아야 문제를 풀 수 있어요!"
   },
   {
     "question_id": "S2-MOCK1-028",
@@ -100,7 +102,8 @@
     },
     "coach_message_short": "금리상승 예상 → 고정화 수요↑ → 스왑스프레드 확대! 축소가 아닙니다.",
     "source_ref": "제1회 모의고사 제2과목 Q28",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "스왑스프레드 = 스왑금리 - 국채수익률이에요. 금리상승 예상 시 차입자의 고정금리 수요 증가 → 스프레드 확대! 반대로 금리하락 예상 시 투자자의 고정금리 수요 증가 → 스프레드 축소! 이 반대 관계를 꼭 기억하세요."
   },
   {
     "question_id": "S2-MOCK1-029",
@@ -134,7 +137,8 @@
     },
     "coach_message_short": "선물금리 < 스왑금리 → ED매도(고정지급) + Short스왑(고정수취)로 차익!",
     "source_ref": "제1회 모의고사 제2과목 Q29",
-    "estimated_sec": 75
+    "estimated_sec": 75,
+    "coach_message_long": "ED선물(유로달러 선물)과 스왑의 차익거래예요. 두 상품의 가격 차이를 이용해서 낮은 쪽에서 사고 높은 쪽에서 팔면 차익을 얻는 거죠. 기초자산이 같으면 같은 방향으로 움직이니까요!"
   },
   {
     "question_id": "S2-MOCK1-030",
@@ -168,7 +172,8 @@
     },
     "coach_message_short": "원화 이자율스왑 교환주기 = 3개월! 6개월이 아닙니다.",
     "source_ref": "제1회 모의고사 제2과목 Q30",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "스왑의 결제 관행을 숙지하세요. 원화 이자율스왑은 보통 분기 말에 정산되고, 고정금리와 변동금리(CD금리) 간 차이만 교환해요. 원금은 교환하지 않는다는 게 핵심!"
   },
   {
     "question_id": "S2-MOCK1-031",
@@ -203,7 +208,8 @@
     },
     "coach_message_short": "Payer's 스왑(고정지급) = 금리하락 위험 → T-Bond 매입으로 헤지!",
     "source_ref": "제1회 모의고사 제2과목 Q31",
-    "estimated_sec": 75
+    "estimated_sec": 75,
+    "coach_message_long": "Payer 스왑 = 고정금리 지급해요. 금리하락하면 불리하죠(고정금리를 지급해야 하니까). 그래서 금리하락 시 이익이 나는 상품으로 헤지해야 해요. 금리선물 매입이나 Receiver 스왑이 그런 헤지상품이에요!"
   },
   {
     "question_id": "S2-MOCK1-032",
@@ -237,7 +243,8 @@
     },
     "coach_message_short": "Receiver's 스왑 = 금리상승 위험 → 유로달러선물 매도로 헤지!",
     "source_ref": "제1회 모의고사 제2과목 Q32",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "Receiver 스왑 = 고정금리 수취해요. 금리상승하면 불리해요(고정금리로 받으니까). 금리상승 시 이익이 나는 상품으로 헤지하세요. Payer 스왑이나 금리선물 매도가 헤지상품이에요!"
   },
   {
     "question_id": "S2-MOCK1-033",
@@ -272,7 +279,8 @@
     },
     "coach_message_short": "통화스왑 평가손익 = 수취PV - 지급PV(원화환산). 환율 곱하기 잊지 마세요!",
     "source_ref": "제1회 모의고사 제2과목 Q33",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "통화스왑의 핵심 3가지: ①계약 시작 시 원금 교환 ②계약 기간 중 이자 교환 ③계약 종료 시 다시 원금 교환 - 그런데 이 때 환율은 거래 시점의 환율을 사용해요! 선물환율이 아니라는 게 핵심!"
   },
   {
     "question_id": "S2-MOCK1-034",
@@ -306,7 +314,8 @@
     },
     "coach_message_short": "장외파생상품은 규제 강화에도 여전히 성장 중! 쇠퇴하지 않습니다.",
     "source_ref": "제1회 모의고사 제2과목 Q34",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "장외파생상품의 최대 위험은 신용위험(상대방 부도 위험)이에요. 장내파생상품은 거래소가 중개하니까 보호받지만, 장외는 거래소 보호 없이 직거래하니까요. 그래서 더 까다로운 규제가 있어요."
   },
   {
     "question_id": "S2-MOCK1-035",
@@ -341,7 +350,8 @@
     },
     "coach_message_short": "장애옵션 프리미엄 < 표준옵션! 낙아웃+낙인 = 표준옵션.",
     "source_ref": "제1회 모의고사 제2과목 Q35",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "장애옵션(Barrier Option) = 배리어라는 기준가격이 있는 옵션이에요. Knock-in: 배리어에 터치해야만 옵션이 활성화돼요! Knock-out: 배리어에 터치하면 옵션이 소멸돼요! 이 둘은 정반대라고 기억하세요."
   },
   {
     "question_id": "S2-MOCK1-036",
@@ -375,7 +385,8 @@
     },
     "coach_message_short": "Knock-Out이 Trigger에 근접 → 소멸 직전 → 가치 거의 0!",
     "source_ref": "제1회 모의고사 제2과목 Q36",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "Knock-out 옵션은 기초자산이 배리어 수준에 도달하면 옵션이 완전히 소멸돼요. 따라서 프리미엄이 표준옵션보다 훨씬 싸요. 발행사는 손실 한도가 정해지니까 저렴한 거죠."
   },
   {
     "question_id": "S2-MOCK1-037",
@@ -410,7 +421,8 @@
     },
     "coach_message_short": "평균행사가격 콜옵션 = Max[만기가격 - 평균가격, 0]. 음수면 0!",
     "source_ref": "제1회 모의고사 제2과목 Q37",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "평균가격옵션(Asian Option)은 만기의 한 시점 가격이 아니라 일정 기간의 평균가격을 사용해요. 평균을 내면 변동성이 낮아지니까 프리미엄이 표준옵션보다 저렴해요! 이게 가장 큰 장점이에요."
   },
   {
     "question_id": "S2-MOCK1-038",
@@ -444,7 +456,8 @@
     },
     "coach_message_short": "장애옵션 = 경로의존형! 첨점수익구조형(디지털옵션)과 혼동하지 마세요.",
     "source_ref": "제1회 모의고사 제2과목 Q38",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "장애옵션은 크게 4가지: ①Knock-in Call ②Knock-in Put ③Knock-out Call ④Knock-out Put로 나뉘어요. Knock-in은 터치해야 생기고, Knock-out은 터치하면 없어진다는 것만 기억하면 돼요!"
   },
   {
     "question_id": "S2-MOCK1-039",
@@ -478,7 +491,8 @@
     },
     "coach_message_short": "다중변수의존형 = 레인보우, 퀀토! 나머지(아시안, 래더 등)는 경로의존형!",
     "source_ref": "제1회 모의고사 제2과목 Q39",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "레인보우옵션은 여러 기초자산(예: 삼성전자, LG전자, SK하이닉스)이 연결된 옵션이에요. 기초자산 간 상관계수가 가격에 영향을 미치고, 기초자산이 많을수록 구조가 복잡해져요."
   },
   {
     "question_id": "S2-MOCK1-040",
@@ -512,7 +526,8 @@
     },
     "coach_message_short": "ELW 기초자산 = KOSPI200 전 종목이 아닌 분기별 선정 종목만!",
     "source_ref": "제1회 모의고사 제2과목 Q40",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELW(Equity Linked Warrant, 주식워런트증권)는 발행사가 직접 발행하는 옵션 같은 상품이에요. 기초자산은 개별주식이나 지수일 수 있어요. 참고: 주식워런트는 핵심설명서 대상 아니에요!"
   },
   {
     "question_id": "S2-MOCK1-041",
@@ -547,7 +562,8 @@
     },
     "coach_message_short": "최저~최고환율 범위 설정 + 범위 내 시장환율 적용 = 범위선물환!",
     "source_ref": "제1회 모의고사 제2과목 Q41",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "범위선물환(Range Forward)은 최고환율과 최저환율의 범위를 정하는 거예요. 범위 안에서는 고정환율로 거래되고, 범위를 벗어나면 손실이 커져요. 그 대신 비용이 거의 없다는 게 장점!"
   },
   {
     "question_id": "S2-MOCK1-042",
@@ -582,7 +598,8 @@
     },
     "coach_message_short": "보장매입자 = 프리미엄 지급 + 보호 받음! 보장매도자 = 프리미엄 수취 + 위험 인수!",
     "source_ref": "제1회 모의고사 제2과목 Q42",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "CDS(신용부도스왑)는 신용위험만 이전해요. TRS(총수익스왑)는 신용위험과 시장위험 모두를 이전해요. 이 차이를 꼭 알아두세요! CDS 프리미엄은 신용스프레드가 클수록 높아져요."
   },
   {
     "question_id": "S2-MOCK1-043",
@@ -617,7 +634,8 @@
     },
     "coach_message_short": "ELD = 옵션 매입만 가능! 매도 불가능합니다.",
     "source_ref": "제1회 모의고사 제2과목 Q43",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELD(Equity Linked Debt, 파생결합사채)는 채권 형태로 발행되는 파생상품이에요. ELF는 펀드, ETN은 채권이라는 거 정확히 구분하세요. 발행시장, 위험, 수익률 구조가 모두 달라요!"
   },
   {
     "question_id": "S2-MOCK1-044",
@@ -652,7 +670,8 @@
     },
     "coach_message_short": "보장매도자 신용도↓ → 보장 가치↓ → CDS 프리미엄↓ (높이는 요인 아님!)",
     "source_ref": "제1회 모의고사 제2과목 Q44",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "CDS 프리미엄은 신용스프레드, 회수율, 담보 상황 등에 따라 결정돼요. 신용도가 낮을수록(스프레드가 클수록) 프리미엄이 높아져요. 신용 평가가 좋아지면 프리미엄이 내려가죠!"
   },
   {
     "question_id": "S2-MOCK1-045",
@@ -687,7 +706,8 @@
     },
     "coach_message_short": "CDS 프리미엄 요인 = 부도확률 + 준거기업신용 + 매도자신용 + 회수율!",
     "source_ref": "제1회 모의고사 제2과목 Q45",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "CDS 프리미엄의 결정요인을 조합으로 묻는 문제네요. 신용스프레드 변화, 시장변동성, 거래상대방의 신용도 변화 등이 모두 영향을 미쳐요. 이들의 상호작용을 이해해야 돼요."
   },
   {
     "question_id": "S2-MOCK1-046",
@@ -722,7 +742,8 @@
     },
     "coach_message_short": "ETN = 파생결합증권! ELD는 예금, MMF는 펀드, CMA는 계좌.",
     "source_ref": "제1회 모의고사 제2과목 Q46",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "파생결합증권의 분류: ①이색옵션을 기초로 한 것 ②신용파생상품을 기초로 한 것 ③다중기초자산 상품 등이 있어요. 각각의 특징을 정확히 알아둬야 헷갈리지 않아요!"
   },
   {
     "question_id": "S2-MOCK1-047",
@@ -757,7 +778,8 @@
     },
     "coach_message_short": "원금손실 통지 = 손실사실 + 조기상환수익률 + 환매방법·기간·수수료!",
     "source_ref": "제1회 모의고사 제2과목 Q47",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "원금손실이 예상될 때는 반드시 투자자에게 통지해야 해요. 이건 법적 요구사항이에요. 언제 통지하는지(언제부터 손실이 있을 수 있는지)를 정확히 알아두세요!"
   },
   {
     "question_id": "S2-MOCK1-048",
@@ -791,7 +813,8 @@
     },
     "coach_message_short": "주가 연계 + 매매 권리(옵션) + 파생결합증권 = ELW!",
     "source_ref": "제1회 모의고사 제2과목 Q48",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "ELW(주식워런트증권)는 옵션을 증권화한 상품이에요. 발행사가 있고(은행이나 증권사), 기초자산은 개별주식이나 지수예요. 호가 방식, 거래 시간 등이 주식과 비슷해요."
   },
   {
     "question_id": "S2-MOCK1-049",
@@ -826,7 +849,8 @@
     },
     "coach_message_short": "잔존만기↓ → 시간가치↓ → ELW가격↓! 증가가 아닌 감소!",
     "source_ref": "제1회 모의고사 제2과목 Q49",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELW 가격 = 내재가치(행사가격과의 차이) + 시간가치(잔존기간)로 결정돼요. 만기가 가까워질수록 시간가치는 줄어들고, 기초자산 변동성이 클수록 시간가치는 커져요!"
   },
   {
     "question_id": "S2-MOCK1-050",
@@ -861,7 +885,8 @@
     },
     "coach_message_short": "외국계에서 동일상품 매입 = Back-to-Back! 직접 복제 = 자체헤지!",
     "source_ref": "제1회 모의고사 제2과목 Q50",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELS(주가연계증권)는 공모 방식으로 발행되는 파생결합증권이에요. 사모 방식으로 발행되는 것과는 달라요. 발행시장의 차이를 정확히 알아둬야 해요!"
   },
   {
     "question_id": "S2-MOCK2-026",
@@ -895,7 +920,8 @@
     },
     "coach_message_short": "표준형 스왑 = 변동 vs 고정! 변동 vs 변동은 베이시스 스왑!",
     "source_ref": "제2회 모의고사 제2과목 Q26",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "표준형 스왑은 처음과 끝에만 현금흐름이 있고, 계약 기간 중에는 고정금리와 변동금리의 차이만 교환해요. 가장 기본적인 스왑 형태라고 생각하면 돼요!"
   },
   {
     "question_id": "S2-MOCK2-027",
@@ -929,7 +955,8 @@
     },
     "coach_message_short": "Set-off Risk는 Parallel Loan! Back-to-Back은 세금 문제!",
     "source_ref": "제2회 모의고사 제2과목 Q27",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "Parallel Loan(상호대출)은 두 기업이 각각 대출을 받는 구조예요. 각각 독립적인 계약이라 한쪽 부도 시 상계(Set-off)가 어려워요. Back-to-Back Loan은 이 문제를 개선한 형태에요!"
   },
   {
     "question_id": "S2-MOCK2-028",
@@ -964,7 +991,8 @@
     },
     "coach_message_short": "고정금리 수취 = Bid Rate 높을수록 유리! s.a. > annual, MMB > act/365!",
     "source_ref": "제2회 모의고사 제2과목 Q28",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "고정금리를 수취할 때는 매도율(Offer Rate)을 적용해요. 딜러가 고정금리를 받으려고 제시하는 가격이니까요. Bid Rate는 고정금리를 지급할 때예요!"
   },
   {
     "question_id": "S2-MOCK2-029",
@@ -999,7 +1027,8 @@
     },
     "coach_message_short": "고정금리 지급(Payer) = Offer Rate! 수취(Receiver) = Bid Rate!",
     "source_ref": "제2회 모의고사 제2과목 Q29",
-    "estimated_sec": 50
+    "estimated_sec": 50,
+    "coach_message_long": "이자율스왑에서 최종 고정금리는 국채수익률 + 스왑스프레드로 결정돼요. 신용도, 스왑 기간, 시장 상황 등이 모두 영향을 미쳐요. 각 요소의 영향을 파악하세요!"
   },
   {
     "question_id": "S2-MOCK2-030",
@@ -1034,7 +1063,8 @@
     },
     "coach_message_short": "총 절약금리 = 고정금리 차이 - 변동금리 차이! 비교우위 스왑의 핵심!",
     "source_ref": "제2회 모의고사 제2과목 Q30",
-    "estimated_sec": 75
+    "estimated_sec": 75,
+    "coach_message_long": "비교우위(Comparative Advantage)에 의한 스왑은 두 기업의 금리 차이 차이를 이용해요. 차입금리는 다르지만, 금리 차이의 차이가 있으면 양쪽 모두 이익을 볼 수 있죠!"
   },
   {
     "question_id": "S2-MOCK2-031",
@@ -1069,7 +1099,8 @@
     },
     "coach_message_short": "통화스왑: 초기원금교환↔이자교환 = 반대! 만기원금교환↔이자교환 = 동일!",
     "source_ref": "제2회 모의고사 제2과목 Q31",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "통화스왑은 다양한 목적(자금조달, 환위험 회피, 금리 평가 차익)으로 사용돼요. 매매 방향(Buy-Sell)을 정확히 이해하세요. 선물환처럼 생각하면 안 돼요!"
   },
   {
     "question_id": "S2-MOCK2-032",
@@ -1103,7 +1134,8 @@
     },
     "coach_message_short": "원화수입→달러지출 상황에서는 원화지급+달러수취 통화스왑!",
     "source_ref": "제2회 모의고사 제2과목 Q32",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "통화스왑을 위험관리 관점에서 보면, 환위험과 신용위험을 동시에 관리할 수 있어요. 하지만 금리스왑보다 상대방위험이 더 크다는 것을 잊지 마세요!"
   },
   {
     "question_id": "S2-MOCK2-033",
@@ -1137,7 +1169,8 @@
     },
     "coach_message_short": "변동자산 소유자 → 금리하락 리스크 → Receiver's Swap!",
     "source_ref": "제2회 모의고사 제2과목 Q33",
-    "estimated_sec": 50
+    "estimated_sec": 50,
+    "coach_message_long": "Payer 스왑과 Receiver 스왑은 정확히 반대예요. Payer는 고정금리 지급(금리상승 시 불리), Receiver는 고정금리 수취(금리하락 시 불리). 각각의 위험 성격을 정확히 파악하세요!"
   },
   {
     "question_id": "S2-MOCK2-034",
@@ -1171,7 +1204,8 @@
     },
     "coach_message_short": "장외파생상품 = 비표준화, 당사자간 자유설계! 장내 = 표준화!",
     "source_ref": "제2회 모의고사 제2과목 Q34",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "장외파생상품의 특징: 1) 신용위험이 커요 2) 유동성위험이 있어요 3) 규제 대상이에요 4) 거래시마다 파생상품업무책임자 승인 필요해요. 장내와 완전히 달라요!"
   },
   {
     "question_id": "S2-MOCK2-035",
@@ -1205,7 +1239,8 @@
     },
     "coach_message_short": "평균가격 → 아시안 옵션! 만기가격 아닌 기간평균이 수익 결정!",
     "source_ref": "제2회 모의고사 제2과목 Q35",
-    "estimated_sec": 25
+    "estimated_sec": 25,
+    "coach_message_long": "평균가격옵션(Asian Option)은 표준옵션과 달리 여러 시점의 평균가격을 행사가로 사용해요. 가격 변동성이 낮아져서 프리미엄이 저렴하고, 시간가치도 작아요!"
   },
   {
     "question_id": "S2-MOCK2-036",
@@ -1239,7 +1274,8 @@
     },
     "coach_message_short": "평균가격 콜 = Max[평균 - 행사가격, 0]! 만기가격이 아닌 평균!",
     "source_ref": "제2회 모의고사 제2과목 Q36",
-    "estimated_sec": 50
+    "estimated_sec": 50,
+    "coach_message_long": "평균가격 콜옵션의 수익은 max(평균가격 - 행사가, 0)으로 계산돼요. 일반 콜옵션 max(현재가 - 행사가, 0)과는 달라요. 계산 공식을 정확히 알아두세요!"
   },
   {
     "question_id": "S2-MOCK2-037",
@@ -1273,7 +1309,8 @@
     },
     "coach_message_short": "룩백 콜 = 만기가격 - 최저가! 가장 싸게 사서 만기에 파는 효과!",
     "source_ref": "제2회 모의고사 제2과목 Q37",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "룩백 콜옵션은 만기 시점의 최저 매입가로 행사할 수 있어요. 따라서 수익 = 최고가 - 최저 매입가예요. 최고가에서 파는 효과를 얻을 수 있다고 생각하면 돼요!"
   },
   {
     "question_id": "S2-MOCK2-038",
@@ -1307,7 +1344,8 @@
     },
     "coach_message_short": "선택옵션 = 나중에 콜/풋 결정! 스트래들보다 저렴한 대안!",
     "source_ref": "제2회 모의고사 제2과목 Q38",
-    "estimated_sec": 25
+    "estimated_sec": 25,
+    "coach_message_long": "선택옵션(Chooser Option)은 정해진 날짜에 콜 또는 풋 중 고르는 옵션이에요. 양쪽 옵션의 장점을 누릴 수 있으니까 프리미엄이 높을 수밖에 없어요!"
   },
   {
     "question_id": "S2-MOCK2-039",
@@ -1341,7 +1379,8 @@
     },
     "coach_message_short": "레인보우 = 여러 자산 중 최고 실적으로 수익 결정!",
     "source_ref": "제2회 모의고사 제2과목 Q39",
-    "estimated_sec": 25
+    "estimated_sec": 25,
+    "coach_message_long": "레인보우옵션은 여러 기초자산을 한 계약에 포함해요. 기초자산 간 상관계수가 큰 요소이고, 바스켓 옵션이나 다중자산옵션과도 비슷한 개념이에요!"
   },
   {
     "question_id": "S2-MOCK2-040",
@@ -1376,7 +1415,8 @@
     },
     "coach_message_short": "달러 조달이 필요한 만기불일치 → Buy & Sell 외환스왑!",
     "source_ref": "제2회 모의고사 제2과목 Q40",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "외환스왑의 Buy and Sell 방향을 정확히 이해하세요. Buy는 선현물거래에서 외화 매입(원화 매도), Sell은 외화 매도(원화 매입)를 의미해요!"
   },
   {
     "question_id": "S2-MOCK2-041",
@@ -1411,7 +1451,8 @@
     },
     "coach_message_short": "디지털형 = 행사가격 기준 원금 또는 고정수익! ON/OFF 구조!",
     "source_ref": "제2회 모의고사 제2과목 Q41",
-    "estimated_sec": 35
+    "estimated_sec": 35,
+    "coach_message_long": "파생결합사채(ELB)는 디지털 구조를 가질 수 있어요. 조건을 만족하면 전체 손실, 만족하지 않으면 정해진 수익을 받는 식이에요. 이분법적(Binary) 수익구조라고 보면 돼요!"
   },
   {
     "question_id": "S2-MOCK2-042",
@@ -1446,7 +1487,8 @@
     },
     "coach_message_short": "CLN 투자자 = 보장매도자! 높은 수익률 + 이중 신용위험 부담!",
     "source_ref": "제2회 모의고사 제2과목 Q42",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "신용연계채권(CLN)은 발행사 신용도와 별개로 준거기업의 신용사건이 발생하면 원금이 손상돼요. 신용위험을 담은 구조화 상품이에요!"
   },
   {
     "question_id": "S2-MOCK2-043",
@@ -1480,7 +1522,8 @@
     },
     "coach_message_short": "스왑션 = 옵션 + 스왑! 선도스왑 = 스왑 + 스왑!",
     "source_ref": "제2회 모의고사 제2과목 Q43",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "스왑션(Swaption)은 스왑 계약을 하거나 말거나 선택하는 옵션이에요. 선도스왑(Forward Swap)은 미래의 특정 시점에 스왑을 개시하는 거죠. 둘의 차이를 정확히 알아두세요!"
   },
   {
     "question_id": "S2-MOCK2-044",
@@ -1514,7 +1557,8 @@
     },
     "coach_message_short": "스텝다운 ELS = 만기 '장기화'로 수익률 '높임' + 조기상환 조건!",
     "source_ref": "제2회 모의고사 제2과목 Q44",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "조기상환형 스텝다운 ELS는 조기상환조건이 시간이 지나면서 낮아지는 구조예요. 초반에는 높은 수익, 후반으로 갈수록 낮은 수익이지만 조기상환 확률이 높아져요!"
   },
   {
     "question_id": "S2-MOCK2-045",
@@ -1549,7 +1593,8 @@
     },
     "coach_message_short": "낙인형 = 가장 보편적인 스텝다운 ELS!",
     "source_ref": "제2회 모의고사 제2과목 Q45",
-    "estimated_sec": 25
+    "estimated_sec": 25,
+    "coach_message_long": "낙인형(Knock-in) ELS는 기초자산이 낙인수준에 도달해야 원금손실이 시작돼요. 낙인수준이 낮을수록 원금손실 확률이 높지만 수익률은 높아요. 위험과 수익의 트레이드오프!"
   },
   {
     "question_id": "S2-MOCK2-046",
@@ -1585,7 +1630,8 @@
     },
     "coach_message_short": "ELW 핵심 = 레버리지! 내재가치≠시간가치, 내재변동성≠역사적변동성!",
     "source_ref": "제2회 모의고사 제2과목 Q46",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELW는 증권 거래소에서 주식처럼 거래되는 파생상품이에요. 발행사가 있고, 신용위험(발행사 부도)이 있다는 게 특징이에요. 하지만 주식워런트는 핵심설명서 제외 대상이에요!"
   },
   {
     "question_id": "S2-MOCK2-047",
@@ -1619,7 +1665,8 @@
     },
     "coach_message_short": "전환비율 = ELW 1증권당 행사 가능한 기초자산 수!",
     "source_ref": "제2회 모의고사 제2과목 Q47",
-    "estimated_sec": 25
+    "estimated_sec": 25,
+    "coach_message_long": "ELW의 전환비율(Conversion Ratio)은 기초주식 1주에 대해 몇 개의 ELW를 행사할 수 있는지 보여줘요. 행사가를 전환비율로 나누면 기초주식 1주당 행사비용이 나와요!"
   },
   {
     "question_id": "S2-MOCK2-048",
@@ -1654,7 +1701,8 @@
     },
     "coach_message_short": "ELD = 사전약정수익률 배당! 실적배당이 아닌 확정금리형!",
     "source_ref": "제2회 모의고사 제2과목 Q48",
-    "estimated_sec": 35
+    "estimated_sec": 35,
+    "coach_message_long": "ELW, ELS, ELD, ELF, ETN은 모두 달라요! ELW는 개별주식, ELS는 지수, ELD는 채권, ELF는 펀드, ETN은 채권 형태예요. 발행 형태를 정확히 구분하세요!"
   },
   {
     "question_id": "S2-MOCK2-049",
@@ -1689,7 +1737,8 @@
     },
     "coach_message_short": "낙인(KI) = 원금손실 조건! 낮을수록(도달 어려울수록) 투자자에게 유리!",
     "source_ref": "제2회 모의고사 제2과목 Q49",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "조기상환형 ELS 투자 시 기초자산 개수가 적고, 변동성이 작고, 낙인 조건이 높을수록(손실 가능성이 낮을수록) 더 안전해요. 수익률과 안정성을 고려해야 해요!"
   },
   {
     "question_id": "S2-MOCK2-050",
@@ -1723,6 +1772,7 @@
     },
     "coach_message_short": "ETN = '채권'형식! 주식형식이 아닙니다!",
     "source_ref": "제2회 모의고사 제2과목 Q50",
-    "estimated_sec": 30
+    "estimated_sec": 30,
+    "coach_message_long": "ETN(상장지수채권)은 지수를 추적하는 채권 형태 상품이에요. 펀드가 아니라 채권이고, 발행사 신용도가 중요해요(발행사 부도 시 손실). ETF와는 달라요!"
   }
 ]

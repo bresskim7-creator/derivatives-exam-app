@@ -1,4 +1,4 @@
-const CACHE_NAME = 'derivatives-v2';
+const CACHE_NAME = 'derivatives-v3';
 const ASSETS = [
   './app.html',
   './manifest.json',
