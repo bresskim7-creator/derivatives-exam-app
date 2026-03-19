@@ -1,0 +1,69 @@
+{
+  "exam_id": "derivatives_2026",
+  "exam_name": "파생상품투자권유자문인력",
+  "exam_date": "2026-03-29",
+  "duration_min": 120,
+  "total_question_count": 100,
+  "pass_total_pct": 70,
+  "pass_subject_pct": 50,
+  "subjects": [
+    {
+      "subject_id": "S1",
+      "subject_name": "파생상품Ⅰ",
+      "question_count": 25,
+      "topics": [
+        { "topic_id": "S1-FUT", "topic_name": "선물", "question_count": 13 },
+        { "topic_id": "S1-OPT", "topic_name": "옵션", "question_count": 12 }
+      ]
+    },
+    {
+      "subject_id": "S2",
+      "subject_name": "파생상품Ⅱ",
+      "question_count": 25,
+      "topics": [
+        { "topic_id": "S2-SWAP", "topic_name": "스왑", "question_count": 8 },
+        { "topic_id": "S2-STRUCT", "topic_name": "파생결합증권", "question_count": 10 },
+        { "topic_id": "S2-EXOTIC", "topic_name": "이색옵션·신용파생상품", "question_count": 5 },
+        { "topic_id": "S2-OTC", "topic_name": "장외파생상품", "question_count": 2 }
+      ]
+    },
+    {
+      "subject_id": "S3",
+      "subject_name": "리스크관리 및 직무윤리",
+      "question_count": 25,
+      "topics": [
+        { "topic_id": "S3-RISK", "topic_name": "리스크관리", "question_count": 8 },
+        { "topic_id": "S3-TRADE", "topic_name": "파생상품거래", "question_count": 5 },
+        { "topic_id": "S3-ETHICS", "topic_name": "직무윤리", "question_count": 7 },
+        { "topic_id": "S3-COMPLIANCE", "topic_name": "법규준수·투자자분쟁예방", "question_count": 5 }
+      ]
+    },
+    {
+      "subject_id": "S4",
+      "subject_name": "파생상품법규",
+      "question_count": 25,
+      "topics": [
+        { "topic_id": "S4-LAW", "topic_name": "자본시장 관련 법규", "question_count": 17 },
+        { "topic_id": "S4-MARKET", "topic_name": "거래소·협회 규정", "question_count": 8 }
+      ]
+    }
+  ],
+  "question_bank": {
+    "total": 210,
+    "by_subject": { "S1": 60, "S2": 50, "S3": 50, "S4": 50 }
+  },
+  "mock_exam_sets": [
+    {
+      "set_id": "MOCK1",
+      "set_name": "제1회 실전 모의고사",
+      "question_count": 100,
+      "source": "5번 PDF (필수암기공식+실전모의고사)"
+    },
+    {
+      "set_id": "MOCK2",
+      "set_name": "제2회 실전 모의고사",
+      "question_count": 100,
+      "source": "5번 PDF (필수암기공식+실전모의고사)"
+    }
+  ]
+}

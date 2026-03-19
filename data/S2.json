@@ -1,0 +1,1728 @@
+[
+  {
+    "question_id": "S2-MOCK1-026",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "스왑거래 특징",
+    "tags": [
+      "외환스왑",
+      "통화스왑",
+      "스왑거래",
+      "만기현금흐름"
+    ],
+    "stem": "스왑거래에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "외환스왑(Foreign Exchange Swap)에서 Swap Rate의 부호는 금리평가이론에 따라 프리미엄과 디스카운트로 결정된다.",
+      "외환스왑(Foreign Exchange Swap)은 단기자금시장 스왑거래이다.",
+      "통화스왑(Currency Swap) 거래에서 만기 현금흐름은 선물환율에 의해 결정된다.",
+      "Back-to-Back Loan은 Parallel Loan이 갖는 신용위험 문제를 상당히 개선했다."
+    ],
+    "correct": 2,
+    "explanation": "통화스왑(Currency Swap) 거래에서 만기 현금흐름은 선물환율이 아닌 초기시점의 환율(거래시점 환율)을 적용하는 것이 특징이다. 만기에도 계약 개시 시의 환율로 원금을 재교환한다.",
+    "wrong_explanations": {
+      "0": "외환스왑의 Swap Rate 부호는 금리평가이론에 의해 프리미엄/디스카운트로 결정되므로 올바르다.",
+      "1": "외환스왑은 단기자금시장에서의 스왑거래로, 통화스왑(장기)과 구별되므로 올바르다.",
+      "3": "Back-to-Back Loan은 Parallel Loan의 신용위험 문제(한쪽 불이행 시 다른 쪽도 면책)를 개선한 것이므로 올바르다."
+    },
+    "coach_message_short": "통화스왑 만기 환율 = 초기시점 환율! 선물환율이 아닙니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q26",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-027",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "스왑가격",
+    "tags": [
+      "스왑가격",
+      "고정금리",
+      "변동금리",
+      "Libor",
+      "CD금리"
+    ],
+    "stem": "스왑거래에서 스왑가격(Swap Price)을 지불하고 매매하는 상품에 대한 내용으로 올바른 것은?",
+    "choices": [
+      "스왑거래에서 고정금리와 교환되는 변동금리를 말한다.",
+      "스왑시장에서 딜러에게 지불하는 Up-Front-Fee를 말한다.",
+      "스왑거래에서 변동금리와 교환되는 고정금리를 말한다.",
+      "변동금리 지표에 부가되는 스프레드를 말한다."
+    ],
+    "correct": 0,
+    "explanation": "스왑가격(Swap Price)은 고정금리이며, 이 스왑가격을 지불하고 거래하는 상품은 변동금리이다. 국제스왑거래에서는 관행적으로 Libor를, 우리나라에서는 CD금리를 변동금리 상품으로 하고 있다.",
+    "wrong_explanations": {
+      "1": "Up-Front-Fee는 스왑 체결 시 지불하는 선불 수수료로, 스왑가격과는 다른 개념이다.",
+      "2": "스왑가격 자체가 고정금리이므로, '스왑가격을 지불하고 매매하는 상품'은 변동금리이다.",
+      "3": "스프레드는 변동금리에 부가되는 것으로, 스왑가격으로 매매하는 상품과는 다른 개념이다."
+    },
+    "coach_message_short": "스왑가격 = 고정금리! 고정금리를 주고 변동금리를 받는 구조입니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q27",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-028",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "스왑스프레드",
+    "tags": [
+      "스왑스프레드",
+      "금리상승",
+      "금리하락",
+      "고정금리수요"
+    ],
+    "stem": "스왑스프레드(Swap Spread)에 대한 설명과 거리가 먼 것은?",
+    "choices": [
+      "스왑스프레드는 금융시장의 변화에 따라 조금씩 변한다.",
+      "'스왑스프레드 = 스왑금리 - 재무부 채권수익률'이 성립한다.",
+      "음의 스왑스프레드 지속 원인은 고정금리 수취에 대한 수요 증가 때문이다.",
+      "장래에 금리상승이 예상될 때에는 스왑스프레드가 축소된다."
+    ],
+    "correct": 3,
+    "explanation": "금리상승이 예상될 때에는 차입자의 금리고정화 수요가 증가하고 스왑스프레드가 확대된다. 반대로 금리하락이 예상될 때에는 투자기관의 금리고정화 수요가 증가하고 스왑스프레드가 축소된다. 따라서 '금리상승 예상 시 축소'는 틀렸다.",
+    "wrong_explanations": {
+      "0": "스왑스프레드는 금융시장의 변화에 따라 변동하므로 올바르다.",
+      "1": "스왑스프레드 = 스왑금리 - 재무부 채권수익률은 표준적인 정의이다.",
+      "2": "고정금리 수취 수요 증가(Receiver's 스왑 수요)는 음의 스왑스프레드 원인이 될 수 있다."
+    },
+    "coach_message_short": "금리상승 예상 → 고정화 수요↑ → 스왑스프레드 확대! 축소가 아닙니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q28",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-029",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ED선물 스왑 차익거래",
+    "tags": [
+      "유로달러선물",
+      "스왑",
+      "차익거래",
+      "Strip거래"
+    ],
+    "stem": "유로달러 선물 3년 Strip 거래의 평균금리가 3.20%이고, 현재 스왑시장에서 3년 스왑금리가 3.60-3.54%로 고시되고 있다면 어떤 차익거래가 가능한가?",
+    "choices": [
+      "ED선물 매도 + Short 스왑",
+      "ED선물 매도 + Long 스왑",
+      "ED선물 매입 + Short 스왑",
+      "ED선물 매입 + Long 스왑"
+    ],
+    "correct": 0,
+    "explanation": "유로달러 선물금리(3.20%)가 스왑금리(3.54%)보다 낮으므로, 스왑시장에서 고정금리 3.54%를 수취(Short 스왑/Receiver's)하고, 유로달러 선물거래로 3.20%의 고정금리를 지급(ED선물 매도)하면 0.34%의 차익이 발생한다.",
+    "wrong_explanations": {
+      "1": "Long 스왑은 고정금리 지급이므로 고정금리를 수취해야 하는 이 상황과 반대이다.",
+      "2": "ED선물 매입은 변동금리 수취(고정금리 수취)이므로 방향이 반대이다.",
+      "3": "ED선물 매입 + Long 스왑은 둘 다 고정금리를 지급하는 방향으로 차익거래가 되지 않는다."
+    },
+    "coach_message_short": "선물금리 < 스왑금리 → ED매도(고정지급) + Short스왑(고정수취)로 차익!",
+    "source_ref": "제1회 모의고사 제2과목 Q29",
+    "estimated_sec": 75
+  },
+  {
+    "question_id": "S2-MOCK1-030",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "스왑 결제관행",
+    "tags": [
+      "이자율스왑",
+      "결제관행",
+      "통화스왑",
+      "교환주기"
+    ],
+    "stem": "스왑시장에서의 결제관행에 대한 설명으로 가장 거리가 먼 것은?",
+    "choices": [
+      "원화 이자율스왑은 고정금리와 변동금리가 모두 6개월마다 교환된다.",
+      "원화 이자율스왑의 만기는 1~10년이다.",
+      "통화스왑은 만기환율과 관계없이 거래시점의 환율이 동일하게 적용된다.",
+      "통화스왑은 일반적으로 각 통화의 이자뿐 아니라 원금도 교환한다."
+    ],
+    "correct": 0,
+    "explanation": "원화 이자율스왑은 고정금리와 변동금리가 모두 3개월마다 교환된다. 6개월이 아니라 3개월이 올바르다.",
+    "wrong_explanations": {
+      "1": "원화 이자율스왑의 만기는 1~10년으로 올바른 설명이다.",
+      "2": "통화스왑은 거래시점의 환율로 개시하고 만기에도 동일 환율로 재교환하므로 올바르다.",
+      "3": "통화스왑은 이자뿐 아니라 원금도 교환하는 것이 특징이므로 올바르다."
+    },
+    "coach_message_short": "원화 이자율스왑 교환주기 = 3개월! 6개월이 아닙니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q30",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-031",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "Payer's 스왑 헤지",
+    "tags": [
+      "Payer스왑",
+      "금리변동위험",
+      "헤지",
+      "T-Bond",
+      "TED스프레드"
+    ],
+    "stem": "Payer's 스왑으로부터 발생하는 금리 변동위험을 제거하는 방법으로 옳은 것은?",
+    "choices": [
+      "고정금리를 지급하고, 변동금리를 수취하는 이자율스왑 거래를 체결한다.",
+      "고정금리채를 발행하고, 변동금리채를 매입한다.",
+      "T-Bond를 매입하고, Repo를 실행하고, TED Spread를 매도한다.",
+      "여러 만기의 유로달러선물을 매도(Strip 매도)한다."
+    ],
+    "correct": 2,
+    "explanation": "①②④는 Receiver's 스왑으로부터 발생하는 금리변동위험을 제거하는 방법이다. Payer's 스왑(고정금리 지급+변동금리 수취)은 금리하락 시 위험에 노출되므로, 금리하락 시 이익이 발생하는 포지션(T-Bond 매입 등)으로 헤지해야 한다.",
+    "wrong_explanations": {
+      "0": "고정금리 지급+변동금리 수취는 Payer's 스왑 자체와 동일한 포지션이므로 헤지가 되지 않는다.",
+      "1": "고정금리채 발행+변동금리채 매입은 Receiver's 스왑의 헤지 방법이다.",
+      "3": "유로달러선물 Strip 매도는 금리상승 시 이익이 발생하여 Receiver's 스왑 헤지에 해당한다."
+    },
+    "coach_message_short": "Payer's 스왑(고정지급) = 금리하락 위험 → T-Bond 매입으로 헤지!",
+    "source_ref": "제1회 모의고사 제2과목 Q31",
+    "estimated_sec": 75
+  },
+  {
+    "question_id": "S2-MOCK1-032",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "Receiver's 스왑 헤지",
+    "tags": [
+      "Receiver스왑",
+      "유로달러선물",
+      "헤지",
+      "금리상승위험"
+    ],
+    "stem": "달러 Receiver's 스왑을 거래한 금융기관이 있다. 스왑포지션의 리스크를 관리하기 위한 헤지수단으로 가장 올바른 것은?",
+    "choices": [
+      "유로달러선물을 매입한다.",
+      "유로달러선물을 매도한다.",
+      "미국채선물을 매입한다.",
+      "고정금리채권에 투자한다."
+    ],
+    "correct": 1,
+    "explanation": "Receiver's 스왑(고정금리 수취+변동금리 지급)은 금리상승 시 위험에 노출된다. 금리상승 시 이익이 발생하는 유로달러선물 매도가 적합한 헤지수단이다. ①③④는 모두 금리상승 시 손실이 발생하는 포지션이다.",
+    "wrong_explanations": {
+      "0": "유로달러선물 매입은 금리하락 시 이익이므로 Receiver's 스왑의 헤지가 되지 않는다.",
+      "2": "미국채선물 매입은 금리하락 시 이익(채권가격 상승)이므로 방향이 반대이다.",
+      "3": "고정금리채권 투자는 금리상승 시 채권가격 하락으로 손실이 발생한다."
+    },
+    "coach_message_short": "Receiver's 스왑 = 금리상승 위험 → 유로달러선물 매도로 헤지!",
+    "source_ref": "제1회 모의고사 제2과목 Q32",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK1-033",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "통화스왑 평가손익",
+    "tags": [
+      "통화스왑",
+      "평가손익",
+      "현재가치",
+      "환율",
+      "계산"
+    ],
+    "stem": "통화스왑을 시행한 기업이 있다. 원화 고정금리 수취의 현재가치가 138,000,000원이고 미국달러 변동금리 지급의 현재가치가 US$120,000이다. 현재 대미환율이 US$1당 1,120원일 경우, A은행의 평가손익으로 옳은 것은?",
+    "choices": [
+      "150만원 손실",
+      "150만원 이익",
+      "360만원 손실",
+      "360만원 이익"
+    ],
+    "correct": 3,
+    "explanation": "평가손익 = 원화수취 현재가치 - 달러지급 현재가치(원화환산) = 138,000,000 - (US$120,000 × 1,120) = 138,000,000 - 134,400,000 = 3,600,000원(360만원 이익)",
+    "wrong_explanations": {
+      "0": "150만원 손실은 환율이나 금액을 잘못 적용한 결과이다.",
+      "1": "150만원 이익은 환율이나 금액을 잘못 적용한 결과이다.",
+      "2": "360만원이지만 이익이 아닌 손실로 부호를 잘못 판단한 결과이다."
+    },
+    "coach_message_short": "통화스왑 평가손익 = 수취PV - 지급PV(원화환산). 환율 곱하기 잊지 마세요!",
+    "source_ref": "제1회 모의고사 제2과목 Q33",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK1-034",
+    "subject_id": "S2",
+    "topic_id": "S2-OTC",
+    "topic_name": "장외파생상품",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "장내외파생상품 비교",
+    "tags": [
+      "장내파생상품",
+      "장외파생상품",
+      "신용익스포저",
+      "규제"
+    ],
+    "stem": "다음 중 장내파생상품과 장외파생상품의 특징으로 잘못된 것은?",
+    "choices": [
+      "글로벌 위기 이후 총 시장가치 및 총 신용익스포저가 현저히 감소하였으며 이는 장외파생상품이 향후 쇠퇴할 것임을 의미한다.",
+      "장내파생상품은 모든 거래의 이행을 거래소가 보증하나 장외파생상품은 보증해주는 기관이 없어 당사자 간의 신용도에 의존한다.",
+      "장내파생상품은 표준화되어 있으나 장외파생상품은 거래조건이 당사자 간의 협의에 따라 정해진다.",
+      "장내파생상품은 거래소가 규정한 시간에만 거래를 할 수 있으나 장외파생상품은 24시간 언제든지 거래할 수 있다."
+    ],
+    "correct": 0,
+    "explanation": "글로벌 위기 이후 규제 강화 추세이지만, 총 시장가치 및 총 신용익스포저는 여전히 증가하고 있으며, 이는 장외파생상품시장이 여전히 큰 영향력을 가지고 있음을 의미한다. '쇠퇴할 것임을 의미한다'는 틀렸다.",
+    "wrong_explanations": {
+      "1": "장내파생상품은 거래소가 이행을 보증하고, 장외파생상품은 상대방 신용에 의존하므로 올바르다.",
+      "2": "장내는 표준화, 장외는 맞춤형 거래조건이므로 올바르다.",
+      "3": "장내는 거래시간 제한, 장외는 24시간 거래 가능하므로 올바르다."
+    },
+    "coach_message_short": "장외파생상품은 규제 강화에도 여전히 성장 중! 쇠퇴하지 않습니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q34",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-035",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "장애옵션",
+    "tags": [
+      "장애옵션",
+      "Barrier옵션",
+      "낙아웃",
+      "낙인",
+      "프리미엄"
+    ],
+    "stem": "장애옵션(Barrier Option)에 관한 설명 중 잘못된 것은?",
+    "choices": [
+      "장애옵션은 경로의존형 옵션(Path Dependent Option)이다.",
+      "장애옵션은 낙아웃 옵션(Knock-Out)과 낙인 옵션(Knock-In)으로 나눌 수 있다.",
+      "장애옵션은 표준옵션보다 프리미엄이 비싸다.",
+      "낙아웃 옵션과 낙인 옵션을 합성하면 표준옵션과 동일하다."
+    ],
+    "correct": 2,
+    "explanation": "장애옵션은 조건부 옵션이므로 표준옵션보다 프리미엄이 저렴하다. 낙아웃 옵션과 낙인 옵션의 합성이 표준옵션과 동일하기 때문에, 각각은 표준옵션보다 싸야 한다.",
+    "wrong_explanations": {
+      "0": "장애옵션은 기초자산 가격의 경로에 따라 옵션의 발생/소멸이 결정되므로 경로의존형이 맞다.",
+      "1": "장애옵션은 낙아웃(Knock-Out: 소멸)과 낙인(Knock-In: 발생)으로 분류되므로 올바르다.",
+      "3": "낙아웃 + 낙인 = 표준옵션이라는 관계는 올바르다."
+    },
+    "coach_message_short": "장애옵션 프리미엄 < 표준옵션! 낙아웃+낙인 = 표준옵션.",
+    "source_ref": "제1회 모의고사 제2과목 Q35",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-036",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "Knock-Out 옵션",
+    "tags": [
+      "Knock-Out",
+      "장애옵션",
+      "Trigger Price",
+      "옵션가치"
+    ],
+    "stem": "다음 옵션 중 가장 저렴한 것은?",
+    "choices": [
+      "기초자산가격이 행사가격보다 낮은 풋옵션",
+      "기초자산가격이 촉발가격(Trigger Price)에 근접한 Knock-Out 옵션",
+      "행사가격 재조정시점에 도달한 ATM 클리켓옵션(Cliquet Option)",
+      "기초자산가격이 행사가격보다 높은 콜옵션"
+    ],
+    "correct": 1,
+    "explanation": "Knock-Out 옵션의 기초자산가격이 Trigger Price에 도달하면 옵션이 무효화(소멸)되므로, Trigger Price에 근접할수록 옵션가치는 사실상 없어진다. 따라서 가장 저렴하다.",
+    "wrong_explanations": {
+      "0": "기초자산가격 < 행사가격인 풋옵션은 내가격으로, 내재가치가 있어 저렴하지 않다.",
+      "2": "ATM 클리켓옵션은 행사가격이 재조정되므로 일정한 시간가치가 존재한다.",
+      "3": "기초자산가격 > 행사가격인 콜옵션은 내가격으로, 내재가치가 있어 저렴하지 않다."
+    },
+    "coach_message_short": "Knock-Out이 Trigger에 근접 → 소멸 직전 → 가치 거의 0!",
+    "source_ref": "제1회 모의고사 제2과목 Q36",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-037",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "평균행사가격 콜옵션",
+    "tags": [
+      "아시안옵션",
+      "평균행사가격",
+      "Average Strike",
+      "만기수익",
+      "계산"
+    ],
+    "stem": "다음 데이터에 따른 평균행사가격 콜옵션(Average Strike Call Option)의 만기 수익으로 올바른 것은? (단, 프리미엄은 고려하지 않음)\n\n• 1일 : 100  • 2일 : 104\n• 3일 : 104  • 4일 : 106\n• 5일 : 107  • 6일(만기) : 103",
+    "choices": [
+      "0",
+      "1",
+      "3",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "평균행사가격 콜옵션의 만기수익 = Max[ST - SAVG, 0]. 평균가격 SAVG = (100+104+104+106+107+103)/6 = 624/6 = 104. 만기수익 = Max[103 - 104, 0] = 0.",
+    "wrong_explanations": {
+      "1": "1은 ST - SAVG = 103-104 = -1의 절대값을 취한 것으로, Max 함수를 적용하면 0이다.",
+      "2": "3은 만기가격과 다른 기준가격의 차이를 잘못 계산한 결과이다.",
+      "3": "6은 최고가격과 만기가격의 차이로, 평균행사가격 콜옵션의 계산법이 아니다."
+    },
+    "coach_message_short": "평균행사가격 콜옵션 = Max[만기가격 - 평균가격, 0]. 음수면 0!",
+    "source_ref": "제1회 모의고사 제2과목 Q37",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK1-038",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "장애옵션 분류",
+    "tags": [
+      "장애옵션",
+      "Barrier옵션",
+      "첨점수익구조형",
+      "경로의존형"
+    ],
+    "stem": "장애옵션(Barrier Options)에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "장애옵션은 첨점수익구조형(Singular Payoff) 옵션이라 할 수 있다.",
+      "장애옵션을 분류하면 크게 낙아웃 옵션(Knock-out)과 낙인 옵션(Knock-in)으로 분류할 수 있다.",
+      "장애옵션의 프리미엄은 표준옵션보다 프리미엄이 저렴하다.",
+      "낙아웃 옵션과 낙인 옵션을 합성하면 표준옵션과 동일해진다."
+    ],
+    "correct": 0,
+    "explanation": "장애옵션은 첨점수익구조형(Singular Payoff)이 아니라 경로의존형(Path Dependent) 옵션이다. 첨점수익구조형에 해당하는 것은 디지털옵션 등이다.",
+    "wrong_explanations": {
+      "1": "장애옵션은 낙아웃과 낙인으로 분류되므로 올바르다.",
+      "2": "장애옵션은 조건부이므로 표준옵션보다 프리미엄이 저렴한 것이 맞다.",
+      "3": "낙아웃 + 낙인 = 표준옵션이라는 관계는 올바르다."
+    },
+    "coach_message_short": "장애옵션 = 경로의존형! 첨점수익구조형(디지털옵션)과 혼동하지 마세요.",
+    "source_ref": "제1회 모의고사 제2과목 Q38",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-039",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "다중변수의존형 옵션",
+    "tags": [
+      "다중변수의존형",
+      "레인보우옵션",
+      "퀀토옵션",
+      "이색옵션"
+    ],
+    "stem": "다음 중 다중변수의존형 옵션으로 옳은 것은?",
+    "choices": [
+      "아시안옵션",
+      "클리켓옵션",
+      "래더옵션",
+      "레인보우옵션"
+    ],
+    "correct": 3,
+    "explanation": "다중변수의존형 옵션에는 레인보우옵션, 퀀토옵션 등이 있다. 아시안옵션·클리켓옵션·래더옵션은 경로의존형 옵션에 해당한다.",
+    "wrong_explanations": {
+      "0": "아시안옵션은 평균가격을 이용하는 경로의존형 옵션이다.",
+      "1": "클리켓옵션은 행사가격이 재조정되는 경로의존형 옵션이다.",
+      "2": "래더옵션은 일정 가격 도달 시 수익이 확정되는 경로의존형 옵션이다."
+    },
+    "coach_message_short": "다중변수의존형 = 레인보우, 퀀토! 나머지(아시안, 래더 등)는 경로의존형!",
+    "source_ref": "제1회 모의고사 제2과목 Q39",
+    "estimated_sec": 30
+  },
+  {
+    "question_id": "S2-MOCK1-040",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "ELW 기초자산",
+    "tags": [
+      "ELW",
+      "주식워런트증권",
+      "KOSPI200",
+      "기초자산"
+    ],
+    "stem": "한국거래소의 주식워런트증권(ELW)에 대한 설명으로 가장 거리가 먼 것은?",
+    "choices": [
+      "장외파생상품 영업을 인가받은 금융투자회사만 발행할 수 있다.",
+      "기초자산은 KOSPI200 지수를 구성하는 종목이면 어느 주식이든 가능하다.",
+      "자본시장법상 ELW는 증권으로 분류된다.",
+      "ELW 투자자는 ELW에 대한 순매도포지션의 설정이 불가능하다."
+    ],
+    "correct": 1,
+    "explanation": "ELW의 기초자산은 KOSPI200 구성종목 중 시가총액, 거래대금을 감안하여 분기별로 선정된 종목이어야 한다. KOSPI200 구성종목이면 아무 주식이든 가능한 것은 아니다.",
+    "wrong_explanations": {
+      "0": "장외파생상품 영업 인가를 받은 금융투자회사만 ELW를 발행할 수 있으므로 올바르다.",
+      "2": "자본시장법상 ELW는 파생결합증권으로서 증권으로 분류되므로 올바르다.",
+      "3": "ELW 투자자는 순매도포지션 설정이 불가능하므로 올바르다."
+    },
+    "coach_message_short": "ELW 기초자산 = KOSPI200 전 종목이 아닌 분기별 선정 종목만!",
+    "source_ref": "제1회 모의고사 제2과목 Q40",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-041",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "범위선물환",
+    "tags": [
+      "범위선물환",
+      "Range Forward",
+      "통화파생상품",
+      "수출업체",
+      "환율"
+    ],
+    "stem": "다음의 계약내용에 부합하는 통화관련 파생상품으로 옳은 것은?\n\n| 만기 현물환율 | 행사되는 옵션 | 만기 결제내용 |\n|---|---|---|\n| 1,070원 이하 | 풋옵션 | 수출업체가 US$50만불을 1,070원에 매도 |\n| 1,070원~1,185원 | 없음 | 수출업체는 시장환율로 매도 |\n| 1,185원 이상 | 콜옵션 | 수출업체가 US$50만불을 1,185원에 매도 |",
+    "choices": [
+      "범위 선물환(Range Forward)",
+      "목표 선물환(Target Forward)",
+      "낙아웃 목표 선물환(Knock-Out Target Forward)",
+      "키코 선물환(KIKO Forward)"
+    ],
+    "correct": 0,
+    "explanation": "범위 선물환(Range Forward)은 최저환율~최고환율의 범위를 구성하여 환율상승 시에는 일정 수준의 이익 실현이 가능하고, 환율하락 시에는 일정 수준의 손실을 감수하는 구조이다. 풋옵션 매수+콜옵션 매도로 구성된다.",
+    "wrong_explanations": {
+      "1": "목표 선물환은 레버리지가 포함된 구조로, 범위 내 시장환율 적용과는 다른 구조이다.",
+      "2": "낙아웃 목표 선물환은 Knock-Out 조건이 포함된 구조로, 이 계약에는 해당하지 않는다.",
+      "3": "키코(KIKO)는 Knock-In Knock-Out 조건이 포함된 구조이다."
+    },
+    "coach_message_short": "최저~최고환율 범위 설정 + 범위 내 시장환율 적용 = 범위선물환!",
+    "source_ref": "제1회 모의고사 제2과목 Q41",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK1-042",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "신용파생상품",
+    "tags": [
+      "신용파생상품",
+      "CDS",
+      "보장매입자",
+      "보장매도자",
+      "신용위험"
+    ],
+    "stem": "신용파생상품에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "신용파생상품(Credit Derivatives)이란 채권이나 대출 등 신용위험이 내재된 부채에서 신용위험만을 분리하여 거래당사자 간에 이전하는 금융계약을 말한다.",
+      "신용위험은 채무자의 신용등급 변화, 부도확률(Default Rate), 부도 시 회수율(Recovery Rate) 등에 따라 달라진다.",
+      "신용 보장매도자는 일정한 프리미엄을 지급하고 준거자산의 부도위험으로부터 벗어날 수 있다.",
+      "만기 이전에 서로 정한 신용사건이 발생할 경우 보장매도자는 손실금(채무원금 - 회수금액)을 보장매입자에게 지급한다."
+    ],
+    "correct": 2,
+    "explanation": "일정한 프리미엄을 지급하고 준거자산의 부도위험으로부터 벗어나는 것은 신용 보장매입자(Protection Buyer)이다. 보장매도자는 프리미엄을 수취하고 신용위험을 인수하는 쪽이다.",
+    "wrong_explanations": {
+      "0": "신용파생상품의 정의로 올바르다.",
+      "1": "신용위험의 결정요인에 대한 올바른 설명이다.",
+      "3": "신용사건 발생 시 보장매도자가 손실금을 지급하는 것은 올바르다."
+    },
+    "coach_message_short": "보장매입자 = 프리미엄 지급 + 보호 받음! 보장매도자 = 프리미엄 수취 + 위험 인수!",
+    "source_ref": "제1회 모의고사 제2과목 Q42",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-043",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ELD 구조화상품",
+    "tags": [
+      "ELD",
+      "ELS",
+      "ELF",
+      "구조화상품",
+      "원금보장"
+    ],
+    "stem": "주가연계 구조화상품(Equity Linked Products)에 대한 설명과 거리가 먼 것은?",
+    "choices": [
+      "ELD의 경우 은행이 정기예금 금리의 할인된 현재가치만을 이용하여 옵션을 매도할 수 있다.",
+      "ELD 등 원금보장형 구조화상품은 만기 시에만 원금이 보장된다.",
+      "ELS는 발행조건에 따라 원금 전체를 장외파생상품에 투자할 수 있다.",
+      "ELF는 법적인 성질과 판매 형식상 ELS와 차별화될 뿐, 운용하는 파생상품의 내용과 ELS의 발행조건에 내재된 파생상품이 같을 수 있다."
+    ],
+    "correct": 0,
+    "explanation": "ELD의 경우 은행이 정기예금 금리의 할인된 현재가치만을 이용하여 옵션을 매입만 할 수 있고 매도는 불가능하다. '매도할 수 있다'는 틀렸다.",
+    "wrong_explanations": {
+      "1": "원금보장형 구조화상품은 만기 시에만 원금이 보장되므로 올바르다.",
+      "2": "ELS는 발행조건에 따라 원금 전체를 장외파생상품에 투자할 수 있으므로 올바르다.",
+      "3": "ELF와 ELS는 법적 성질은 다르지만 내재 파생상품은 같을 수 있으므로 올바르다."
+    },
+    "coach_message_short": "ELD = 옵션 매입만 가능! 매도 불가능합니다.",
+    "source_ref": "제1회 모의고사 제2과목 Q43",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-044",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "CDS 프리미엄 결정요인",
+    "tags": [
+      "CDS",
+      "신용디폴트스왑",
+      "프리미엄",
+      "보장매도자",
+      "신용도"
+    ],
+    "stem": "신용디폴트스왑(CDS)의 프리미엄을 높이는 요인이 아닌 것은?",
+    "choices": [
+      "거래의 만기(Maturity)가 길고 채무불이행(Default)의 가능성이 높다.",
+      "준거기업(준거자산)의 신용도가 낮다.",
+      "보장매도자의 신용도가 낮다.",
+      "신용사건 발생 시 준거자산의 회수율이 낮다."
+    ],
+    "correct": 2,
+    "explanation": "보장매도자의 신용도가 낮으면 보장의 가치가 떨어지므로 CDS 프리미엄은 오히려 낮아진다. 보장매도자의 신용도 저하는 프리미엄을 높이는 요인이 아니다.",
+    "wrong_explanations": {
+      "0": "만기가 길고 부도 가능성이 높으면 위험이 크므로 프리미엄이 높아진다.",
+      "1": "준거기업의 신용도가 낮으면 부도 위험이 높아 프리미엄이 높아진다.",
+      "3": "회수율이 낮으면 손실이 커지므로 프리미엄이 높아진다."
+    },
+    "coach_message_short": "보장매도자 신용도↓ → 보장 가치↓ → CDS 프리미엄↓ (높이는 요인 아님!)",
+    "source_ref": "제1회 모의고사 제2과목 Q44",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-045",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "CDS 프리미엄 요인 조합",
+    "tags": [
+      "CDS",
+      "프리미엄",
+      "결정요인",
+      "보장매입자",
+      "회수율"
+    ],
+    "stem": "신용디폴트스왑(CDS)의 프리미엄을 결정하는 요인으로 모두 묶인 것은?\n\nⓐ 채무불이행(Default)의 가능성\nⓑ 준거기업의 신용도\nⓒ 보장매입자의 신용도\nⓓ 보장매도자의 신용도\nⓔ 준거자산의 수익률(Rate of Return)\nⓕ 준거자산의 회수율(Recovery Rate)",
+    "choices": [
+      "ⓐ, ⓑ, ⓓ, ⓕ",
+      "ⓐ, ⓒ, ⓓ, ⓕ",
+      "ⓑ, ⓒ, ⓓ, ⓕ",
+      "ⓑ, ⓒ, ⓔ, ⓕ"
+    ],
+    "correct": 0,
+    "explanation": "CDS 프리미엄 결정 요인: ⓐ 채무불이행 가능성, ⓑ 준거기업 신용도, ⓓ 보장매도자 신용도, ⓕ 회수율이다. 보장매입자의 신용도(ⓒ)와 준거자산의 수익률(ⓔ)은 프리미엄 결정 요인이 아니다.",
+    "wrong_explanations": {
+      "1": "보장매입자의 신용도(ⓒ)는 CDS 프리미엄 결정 요인이 아니다.",
+      "2": "채무불이행 가능성(ⓐ)이 빠져 있고, 보장매입자 신용도(ⓒ)가 포함되어 있어 틀렸다.",
+      "3": "준거자산의 수익률(ⓔ)은 프리미엄 결정 요인이 아니며, 채무불이행 가능성(ⓐ)이 빠져 있다."
+    },
+    "coach_message_short": "CDS 프리미엄 요인 = 부도확률 + 준거기업신용 + 매도자신용 + 회수율!",
+    "source_ref": "제1회 모의고사 제2과목 Q45",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK1-046",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "파생결합증권 분류",
+    "tags": [
+      "파생결합증권",
+      "ETN",
+      "ELD",
+      "MMF",
+      "CMA"
+    ],
+    "stem": "다음 상품 중 파생결합증권인 것은?",
+    "choices": [
+      "ELD",
+      "ETN",
+      "MMF",
+      "CMA"
+    ],
+    "correct": 1,
+    "explanation": "ETN(상장지수증권)은 기초지수의 변동과 수익률이 연동되도록 증권회사가 발행한 파생결합증권이다. ELD는 예금, MMF는 펀드, CMA는 자산관리계좌로 파생결합증권이 아니다.",
+    "wrong_explanations": {
+      "0": "ELD(주가연계예금)는 은행이 취급하는 예금상품이며, 파생결합증권이 아니다.",
+      "2": "MMF(머니마켓펀드)는 단기금융상품에 투자하는 펀드로 파생결합증권이 아니다.",
+      "3": "CMA(종합자산관리계좌)는 자산관리 서비스 계좌로 파생결합증권이 아니다."
+    },
+    "coach_message_short": "ETN = 파생결합증권! ELD는 예금, MMF는 펀드, CMA는 계좌.",
+    "source_ref": "제1회 모의고사 제2과목 Q46",
+    "estimated_sec": 30
+  },
+  {
+    "question_id": "S2-MOCK1-047",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "원금손실조건 통지",
+    "tags": [
+      "파생결합증권",
+      "원금손실조건",
+      "통지의무",
+      "환매청구",
+      "조기상환"
+    ],
+    "stem": "공모발행 파생결합증권(ELW 제외)의 만기일 또는 최종 환매청구일 이전에 최초로 원금손실조건에 해당하는 경우 일반투자자에게 통지해야 하는 내용과 거리가 먼 것은?",
+    "choices": [
+      "조기상환 시 예상수익률",
+      "핵심설명서 추가고지",
+      "환매청구기간",
+      "환매수수료"
+    ],
+    "correct": 1,
+    "explanation": "원금손실조건 해당 시 통지해야 하는 내용: ① 원금손실조건에 해당되었다는 사실, ② 조기상환조건 및 조기상환 시 예상수익률, ③ 환매청구방법·환매청구기간 및 환매수수료. '핵심설명서 추가고지'는 통지 내용에 포함되지 않는다.",
+    "wrong_explanations": {
+      "0": "조기상환 시 예상수익률은 통지해야 하는 필수 내용이다.",
+      "2": "환매청구기간은 통지해야 하는 필수 내용이다.",
+      "3": "환매수수료는 통지해야 하는 필수 내용이다."
+    },
+    "coach_message_short": "원금손실 통지 = 손실사실 + 조기상환수익률 + 환매방법·기간·수수료!",
+    "source_ref": "제1회 모의고사 제2과목 Q47",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-048",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "ELW 정의",
+    "tags": [
+      "ELW",
+      "주식워런트증권",
+      "파생결합증권",
+      "주가연계"
+    ],
+    "stem": "다음 보기에서 설명하는 파생결합증권으로 옳은 것은?\n\n특정 주가 또는 주가지수의 변동과 연계해 미리 정해진 방법에 따라 만기 시 주권의 매매 또는 현금을 수수하는 권리가 부여된 파생결합증권",
+    "choices": [
+      "ELW",
+      "ELS",
+      "DLS",
+      "ETN"
+    ],
+    "correct": 0,
+    "explanation": "주식워런트증권(ELW)은 개별 주식 및 주가지수 등의 기초자산을 만기시점에 미리 정해진 가격으로 사거나 팔 수 있는 권리를 나타내는 옵션이다. 거래소에서 요구하는 일정 요건을 갖출 경우 유가증권시장에 상장되며 일반투자자도 주식계좌로 매매 가능하다.",
+    "wrong_explanations": {
+      "1": "ELS(주가연계증권)는 주가에 연계된 수익을 제공하지만 '매매 권리'가 아닌 수익구조이다.",
+      "2": "DLS(파생결합증권)는 주가 이외의 기초자산(금리, 원자재 등)에 연계된 증권이다.",
+      "3": "ETN(상장지수증권)은 지수 수익률에 연동되는 증권이며, 매매 권리가 부여된 것은 아니다."
+    },
+    "coach_message_short": "주가 연계 + 매매 권리(옵션) + 파생결합증권 = ELW!",
+    "source_ref": "제1회 모의고사 제2과목 Q48",
+    "estimated_sec": 30
+  },
+  {
+    "question_id": "S2-MOCK1-049",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ELW 가격결정",
+    "tags": [
+      "ELW",
+      "시간가치",
+      "잔존만기",
+      "유동성공급자",
+      "변동성"
+    ],
+    "stem": "주식워런트증권(ELW)과 관련된 설명으로 잘못된 것은?",
+    "choices": [
+      "현금결제방식의 ELW에서 만기일에 보유자에게 이익이 발생한다면 권리행사를 신청하지 않아도 자동적으로 권리가 행사된다.",
+      "역사적 변동성은 과거의 값으로부터 구하기 쉬운 장점이 있는 반면, 미래의 변동성에 대한 정확한 예측으로 볼 수 없다는 단점이 있다.",
+      "ELW의 잔존만기가 감소하면 다른 가격결정요인의 변화가 없어도 ELW의 가격이 점차 증가하는 것이 일반적이다.",
+      "매수 또는 매도호가를 제공함으로써 투자자의 원활한 거래를 돕는 유동성공급자가 지정되어야 한다."
+    ],
+    "correct": 2,
+    "explanation": "ELW의 잔존만기가 감소하면(만기일에 근접하면) 시간가치가 점차 감소하여 ELW의 가격이 낮아지는 것이 일반적이다. '증가한다'는 틀렸다. ELW 가격 = 내재가치 + 시간가치이며, 시간가치는 만기일에 근접할수록 0에 수렴한다.",
+    "wrong_explanations": {
+      "0": "현금결제방식 ELW는 만기 시 이익 발생 시 자동행사되므로 올바르다.",
+      "1": "역사적 변동성의 장단점에 대한 올바른 설명이다.",
+      "3": "ELW에는 유동성공급자(LP)가 지정되어야 하므로 올바르다."
+    },
+    "coach_message_short": "잔존만기↓ → 시간가치↓ → ELW가격↓! 증가가 아닌 감소!",
+    "source_ref": "제1회 모의고사 제2과목 Q49",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK1-050",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ELS 발행시장",
+    "tags": [
+      "ELS",
+      "주가연계증권",
+      "Back-to-Back",
+      "자체헤지",
+      "발행시장"
+    ],
+    "stem": "주가연계증권(ELS)과 일반적인 증권 발행시장의 차이점에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "ELS는 발행사가 자금조달목적으로 발행하기보다는 다양한 위험선호도를 갖고 있는 투자자에게 위험을 이전하고 그 대가를 받는 형태이다.",
+      "발행을 통해 들어온 투자금은 대부분 상환금을 준비하는 목적으로 사용되고 있다.",
+      "잠재적인 투자자의 위험선호도를 파악하여 그에 알맞은 상품을 발행하는 것이 중요하다.",
+      "상환금을 준비하는 방법으로는 외국계 금융기관으로부터 동일한 상품을 매입하는 '자체헤지'가 있다."
+    ],
+    "correct": 3,
+    "explanation": "외국계 금융기관으로부터 동일한 상품을 매입하는 방법은 'Back-to-Back'이라고 한다. '자체헤지'는 현물주식, 장내파생상품, 장외파생상품의 매매를 통해 ELS의 지급구조를 복제하는 방법이다.",
+    "wrong_explanations": {
+      "0": "ELS는 자금조달이 아닌 위험이전과 그 대가를 받는 형태이므로 올바르다.",
+      "1": "투자금은 주로 상환금 준비(헤지) 목적으로 사용되므로 올바르다.",
+      "2": "투자자 위험선호도에 맞는 상품 발행이 중요하다는 것은 올바르다."
+    },
+    "coach_message_short": "외국계에서 동일상품 매입 = Back-to-Back! 직접 복제 = 자체헤지!",
+    "source_ref": "제1회 모의고사 제2과목 Q50",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-026",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "표준형 스왑",
+    "tags": [
+      "표준형스왑",
+      "Plain Vanilla",
+      "이자율스왑",
+      "베이시스스왑"
+    ],
+    "stem": "표준형 스왑에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "변동금리와 고정금리 채무 간의 교환이 일반적이다.",
+      "고정금리 조건은 해당 통화표시 장기채권시장 관행을 따른다.",
+      "Plain Vanilla Swap이라고도 한다.",
+      "변동금리 채무 간의 교환이다."
+    ],
+    "correct": 3,
+    "explanation": "변동금리와 변동금리를 서로 교환하는 것은 비표준형 스왑 중 베이시스(Basis) 스왑이다. 표준형 스왑(Plain Vanilla Swap)은 변동금리와 고정금리를 교환하는 것이다.",
+    "wrong_explanations": {
+      "0": "표준형 이자율스왑은 변동금리와 고정금리 채무 간의 교환이 일반적이므로 올바른 설명이다.",
+      "1": "고정금리 조건은 해당 통화표시 장기채권시장의 관행(이표 지급 주기, 일수 계산 등)을 따르므로 올바른 설명이다.",
+      "2": "표준형 이자율스왑을 Plain Vanilla Swap이라고도 하므로 올바른 설명이다."
+    },
+    "coach_message_short": "표준형 스왑 = 변동 vs 고정! 변동 vs 변동은 베이시스 스왑!",
+    "source_ref": "제2회 모의고사 제2과목 Q26",
+    "estimated_sec": 30
+  },
+  {
+    "question_id": "S2-MOCK2-027",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "Parallel Loan Back-to-Back Loan",
+    "tags": [
+      "Parallel Loan",
+      "Back-to-Back Loan",
+      "Set-off Risk",
+      "부외거래"
+    ],
+    "stem": "Parallel Loan과 Back-to-Back Loan에 대한 설명으로 거리가 먼 것은?",
+    "choices": [
+      "두 거래 모두 파생상품이 아니라 Loan계약으로서 부외거래가 아니다.",
+      "Back-to-Back Loan에서는 Set-off Risk가 크다.",
+      "Back-to-Back Loan에서는 모기업끼리 직접 상호대출 계약을 체결한다.",
+      "두 거래 모두 원천징수 부담의 문제가 있다."
+    ],
+    "correct": 1,
+    "explanation": "Set-off(상계) Risk는 Parallel Loan에서 부담한다. Back-to-Back Loan의 경우 Set-off 문제는 해결했지만 세금문제는 여전히 남아 있다.",
+    "wrong_explanations": {
+      "0": "두 거래 모두 Loan계약이므로 파생상품이 아니며 부외거래가 아닌 것은 올바른 설명이다.",
+      "2": "Back-to-Back Loan은 모기업끼리 직접 상호대출 계약을 체결하므로 올바른 설명이다.",
+      "3": "두 거래 모두 Loan계약이므로 원천징수 부담의 문제가 있는 것은 올바른 설명이다."
+    },
+    "coach_message_short": "Set-off Risk는 Parallel Loan! Back-to-Back은 세금 문제!",
+    "source_ref": "제2회 모의고사 제2과목 Q27",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-028",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "고정금리 수취 스왑 Bid Rate",
+    "tags": [
+      "스왑금리",
+      "Bid Rate",
+      "Offer Rate",
+      "고정금리수취",
+      "MMB"
+    ],
+    "stem": "투자자 A는 미 달러화 고정금리 수취 스왑거래를 하려고 한다. 다음 중 가장 유리한 거래를 할 수 있는 경우에 해당하는 것은?",
+    "choices": [
+      "딜러 A : T + 25 - 12(s.a., 30/360)",
+      "딜러 B : T + 27 - 12(annual, MMB)",
+      "딜러 C : T + 23 - 14(annual, act/365)",
+      "딜러 D : T + 24 - 14(s.a., MMB)"
+    ],
+    "correct": 3,
+    "explanation": "고정금리를 수취할 때는 Bid Rate를 적용하며, Bid Rate가 가장 높은 것을 선택한다. 동일한 Rate이면 반기복리(s.a.)가 연복리(annual)보다 유리하고, act/360(MMB) 계산이 30/360 혹은 act/365보다 유리하다. MMB란 Money Market Basis로 actual/360을 말한다. 딜러 D의 조건(T+24-14, s.a., MMB)이 가장 유리하다.",
+    "wrong_explanations": {
+      "0": "딜러 A의 Bid Rate(T+25)가 높지만, 30/360 일수계산이 MMB보다 불리하다.",
+      "1": "딜러 B의 Bid Rate(T+27)가 가장 높지만, annual 복리이고 MMB가 적용되어도 연복리 불이익이 있다.",
+      "2": "딜러 C의 Bid Rate(T+23)가 가장 낮아 수취 시 불리하다."
+    },
+    "coach_message_short": "고정금리 수취 = Bid Rate 높을수록 유리! s.a. > annual, MMB > act/365!",
+    "source_ref": "제2회 모의고사 제2과목 Q28",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK2-029",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "이자율스왑 최종 고정금리",
+    "tags": [
+      "이자율스왑",
+      "Payer스왑",
+      "Offer Rate",
+      "스왑금리",
+      "스프레드"
+    ],
+    "stem": "Libor + 1.5%의 변동금리채를 발행하고 이자율스왑을 통해 지급이자를 고정하려고 하는 기업이 있다. 현재 스왑딜러가 Libor 금리에 대해 제시하고 있는 스왑금리의 Offer-Bid 가격이 5.13 - 5.07%라고 할 때 기업이 최종적으로 부담해야 하는 고정금리로 올바른 것은?",
+    "choices": [
+      "6.57%",
+      "6.63%",
+      "6.70%",
+      "6.77%"
+    ],
+    "correct": 1,
+    "explanation": "해당 기업은 변동금리를 수취하고 고정금리를 지급하는 Payer 이자율스왑이 필요하다. 시장조성자가 아닌 시장 Follower의 입장에서 지급해야 할 고정금리는 Offer Rate인 5.13%이다. 여기에 스프레드 1.5%를 더하면, 6.63%를 최종적으로 부담해야 한다.",
+    "wrong_explanations": {
+      "0": "6.57%는 Bid Rate(5.07%)에 스프레드 1.5%를 더한 값으로, 고정금리 수취 시 적용되는 금리이다.",
+      "2": "6.70%는 잘못된 계산이다. Offer Rate 5.13% + 스프레드 1.5% = 6.63%가 정확하다.",
+      "3": "6.77%는 잘못된 계산이다."
+    },
+    "coach_message_short": "고정금리 지급(Payer) = Offer Rate! 수취(Receiver) = Bid Rate!",
+    "source_ref": "제2회 모의고사 제2과목 Q29",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S2-MOCK2-030",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "비교우위 이자율스왑 절약금리",
+    "tags": [
+      "비교우위",
+      "이자율스왑",
+      "절약금리",
+      "고정금리",
+      "변동금리"
+    ],
+    "stem": "현재 Q사와 P사는 자금을 차입하려고 하는데 자금시장에서 요구되는 금리는 아래와 같다. Q사는 변동금리 차입을 원하고 P사는 고정금리 차입을 원하고 있으나, 각각 비교우위가 있는 방식으로 자금을 조달하고 이자율스왑을 할 경우에 두 회사가 절약하게 될 금리는 총 얼마가 되는가? (단, 거래비용은 무시함)\n\n| 구분 | 고정금리 | 변동금리 |\n|---|---|---|\n| Q사 | 5.4% | Libor + 1.1% |\n| P사 | 6.9% | Libor + 1.5% |",
+    "choices": [
+      "0.40%",
+      "0.95%",
+      "1.10%",
+      "1.50%"
+    ],
+    "correct": 2,
+    "explanation": "Q사가 고정금리에서 비교우위(차이 1.5%), P사가 변동금리에서 비교우위(차이 0.4%). 총 절약금리 = 고정금리 차이 - 변동금리 차이 = (6.9%-5.4%) - (Libor+1.5%-Libor-1.1%) = 1.5% - 0.4% = 1.10%. 스왑금리가 4.80%일 경우, Q사는 고정금리 차입 후 스왑하면 Libor + 0.6%(+0.5% 이익), P사는 변동금리 차입 후 스왑하면 6.3%(+0.6% 이익), 총 이익 1.10%이다.",
+    "wrong_explanations": {
+      "0": "0.40%는 변동금리 차이(스프레드 차이)만 계산한 값이다. 총 절약금리는 고정금리 차이에서 변동금리 차이를 빼야 한다.",
+      "1": "0.95%는 잘못된 계산이다. 정확한 총 절약금리는 1.10%이다.",
+      "3": "1.50%는 고정금리 차이만 계산한 값이다. 변동금리 차이 0.40%를 차감해야 한다."
+    },
+    "coach_message_short": "총 절약금리 = 고정금리 차이 - 변동금리 차이! 비교우위 스왑의 핵심!",
+    "source_ref": "제2회 모의고사 제2과목 Q30",
+    "estimated_sec": 75
+  },
+  {
+    "question_id": "S2-MOCK2-031",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "통화스왑",
+    "tags": [
+      "통화스왑",
+      "원금교환",
+      "이자교환",
+      "초기원금",
+      "만기원금"
+    ],
+    "stem": "통화스왑에 대한 설명으로 가장 거리가 먼 것은?",
+    "choices": [
+      "서로 다른 통화에 대한 원금과 이자를 교환하는 스왑이다.",
+      "이자율스왑과는 달리 초기원금과 만기원금의 교환이 발생한다.",
+      "만기원금교환의 적용환율은 만기시점의 환율이 아닌 거래시점의 환율로 적용된다.",
+      "초기원금교환과 이자교환은 동일한 방향이고, 만기원금교환과 이자교환은 반대방향이다."
+    ],
+    "correct": 3,
+    "explanation": "초기원금교환과 이자교환은 반대방향이고, 만기원금교환과 이자교환은 동일한 방향이다. 선지 ④는 방향을 반대로 설명하고 있다.",
+    "wrong_explanations": {
+      "0": "통화스왑은 서로 다른 통화의 원금과 이자를 교환하므로 올바른 설명이다.",
+      "1": "이자율스왑과 달리 통화스왑에서는 초기·만기에 원금교환이 발생하므로 올바른 설명이다.",
+      "2": "만기원금교환 시 적용환율은 거래시점의 환율로 고정되므로 올바른 설명이다."
+    },
+    "coach_message_short": "통화스왑: 초기원금교환↔이자교환 = 반대! 만기원금교환↔이자교환 = 동일!",
+    "source_ref": "제2회 모의고사 제2과목 Q31",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-032",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "통화스왑 위험관리",
+    "tags": [
+      "통화스왑",
+      "환위험",
+      "차관상환",
+      "현금흐름"
+    ],
+    "stem": "향후 2년간 120억원에 대한 투자수입을 기대하고 있는 기업이 있다. 이 기업은 천만달러의 차관 원리금 상환을 2년간 해야 한다. 현재 환율은 1$ = 1,200원 수준이나 향후 2년간 안정 여부가 불확실하다. 향후 2년간 위험관리를 위한 대안으로 가장 옳은 것은?",
+    "choices": [
+      "달러 Receiver's 이자율스왑 거래를 한다.",
+      "달러 Payer's 이자율스왑 거래를 한다.",
+      "달러 원리금을 지급하고 원화 원리금을 수취하는 통화스왑 거래를 한다.",
+      "원화 원리금을 지급하고 달러 원리금을 수취하는 통화스왑 거래를 한다."
+    ],
+    "correct": 3,
+    "explanation": "현금흐름을 상쇄시키면서 환율위험까지 방어하려면 통화스왑이 필요하다. 120억원의 투자수입을 달러로 바꾸어 차관 상환에 쓰기 위해, 원화 원리금을 지급하고 달러 원리금을 수취하는 통화스왑을 한다. 통화스왑은 초기환율이 만기까지 적용되므로 환율상승(원화절하) 리스크가 헤지된다.",
+    "wrong_explanations": {
+      "0": "이자율스왑은 동일 통화 내에서 금리를 교환하는 것이므로 환위험 헤지에 적합하지 않다.",
+      "1": "이자율스왑으로는 통화 간 환율변동 리스크를 관리할 수 없다.",
+      "2": "달러를 지급하고 원화를 수취하면 달러 유출이 발생하여 차관 상환에 필요한 달러를 확보할 수 없다."
+    },
+    "coach_message_short": "원화수입→달러지출 상황에서는 원화지급+달러수취 통화스왑!",
+    "source_ref": "제2회 모의고사 제2과목 Q32",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK2-033",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "Payer's Swap Receiver's Swap",
+    "tags": [
+      "Payer스왑",
+      "Receiver스왑",
+      "금리리스크",
+      "듀레이션"
+    ],
+    "stem": "고정금리를 지급하고 변동금리를 수취하는 스왑이 요구되는 경우가 아닌 것은?",
+    "choices": [
+      "변동금리 차입자가 금리리스크에 노출된 경우",
+      "변동이자율자산 소유자가 금리리스크에 노출된 경우",
+      "변동금리 채권을 발행한 기업이 금리리스크에 노출된 경우",
+      "자산듀레이션이 부채듀레이션보다 큰 기업이 금리리스크에 노출된 경우"
+    ],
+    "correct": 1,
+    "explanation": "변동이자율자산 소유자는 금리하락 리스크에 노출되어 있으므로, 변동금리 자산을 딜러에게 주고 고정금리를 받아서 금리리스크를 관리한다. 이에 필요한 스왑은 Receiver's Swap이다. 나머지(①③④)는 모두 금리상승 리스크에 노출되어 있어 Payer's Swap이 필요하다.",
+    "wrong_explanations": {
+      "0": "변동금리 차입자는 금리상승 시 이자부담이 증가하므로 Payer's Swap(고정지급)이 필요하다.",
+      "2": "변동금리 채권 발행 기업은 금리상승 시 이자지급이 증가하므로 Payer's Swap이 필요하다.",
+      "3": "자산듀레이션 > 부채듀레이션이면 금리상승 시 자산가치 하락폭이 더 크므로 Payer's Swap이 필요하다."
+    },
+    "coach_message_short": "변동자산 소유자 → 금리하락 리스크 → Receiver's Swap!",
+    "source_ref": "제2회 모의고사 제2과목 Q33",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S2-MOCK2-034",
+    "subject_id": "S2",
+    "topic_id": "S2-OTC",
+    "topic_name": "장외파생상품",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "장외파생상품 특징",
+    "tags": [
+      "장외파생상품",
+      "장내파생상품",
+      "표준화",
+      "금융공학"
+    ],
+    "stem": "장외파생상품에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "장외파생상품은 리스크관리 수단뿐 아니라 투자수단도 될 수 있다.",
+      "장외파생상품은 거래소의 규정에 따라 표준화된 파생상품 계약으로 거래한다.",
+      "장외파생상품은 거래자들의 다양한 욕구를 충족시킴으로써 훨씬 광범위하게 사용되고 있다.",
+      "장외파생상품은 금융공학(Financial Engineering)의 성과를 적극적으로 응용하고 있다."
+    ],
+    "correct": 1,
+    "explanation": "거래소의 규정에 따라 표준화된 파생상품 계약으로 거래하는 것은 장내파생상품에 대한 설명이다. 장외파생상품은 거래에 관한 강제적인 규정이 없으며 당사자 간의 필요에 따라 언제든지 계약내용을 변경할 수 있다.",
+    "wrong_explanations": {
+      "0": "장외파생상품은 위험관리뿐 아니라 투자·투기 수단으로도 활용되므로 올바른 설명이다.",
+      "2": "장외파생상품은 맞춤형 설계가 가능하여 다양한 욕구를 충족하므로 올바른 설명이다.",
+      "3": "장외파생상품은 금융공학의 성과를 적극적으로 활용하므로 올바른 설명이다."
+    },
+    "coach_message_short": "장외파생상품 = 비표준화, 당사자간 자유설계! 장내 = 표준화!",
+    "source_ref": "제2회 모의고사 제2과목 Q34",
+    "estimated_sec": 30
+  },
+  {
+    "question_id": "S2-MOCK2-035",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "아시안 옵션 평균가격옵션",
+    "tags": [
+      "아시안옵션",
+      "평균가격옵션",
+      "이색옵션",
+      "경로의존옵션"
+    ],
+    "stem": "기초자산의 만기시점 가격이 옵션수익구조의 기본이 되는 일반적인 옵션과는 달리 일정 기간의 평균가격이 옵션의 수익구조를 결정하는 것은?",
+    "choices": [
+      "아시안 옵션(Asian Option)",
+      "후불옵션(Pay-later Option)",
+      "장애옵션(Barrier Option)",
+      "선택옵션(Chooser Option)"
+    ],
+    "correct": 0,
+    "explanation": "평균가격옵션(Average Option) 혹은 아시안 옵션(Asian Option)은 일정 기간의 기초자산가격 평균이 옵션의 수익구조를 결정한다.",
+    "wrong_explanations": {
+      "1": "후불옵션은 만기 시에만 프리미엄을 지급하는 옵션이다.",
+      "2": "장애옵션(Barrier Option)은 기초자산가격이 특정 수준을 돌파하면 효력이 발생하거나 소멸하는 옵션이다.",
+      "3": "선택옵션은 만기 전 특정 시점에서 콜인지 풋인지를 선택할 수 있는 옵션이다."
+    },
+    "coach_message_short": "평균가격 → 아시안 옵션! 만기가격 아닌 기간평균이 수익 결정!",
+    "source_ref": "제2회 모의고사 제2과목 Q35",
+    "estimated_sec": 25
+  },
+  {
+    "question_id": "S2-MOCK2-036",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "평균가격 콜옵션 수익",
+    "tags": [
+      "평균가격옵션",
+      "아시안옵션",
+      "콜옵션",
+      "만기수익"
+    ],
+    "stem": "다음 데이터를 보고 행사가격이 100인 평균가격 콜옵션의 만기 수익으로 옳은 것은? (단, 프리미엄은 고려하지 않음)\n\n• 1일 : 100  • 2일 : 103\n• 3일 : 106  • 4일 : 106\n• 5일 : 103  • 6일(만기) : 100",
+    "choices": [
+      "0",
+      "1",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explanation": "평균가격 = (100 + 103 + 106 + 106 + 103 + 100) / 6 = 618 / 6 = 103. 평균가격 콜옵션의 만기 수익 = Max[S_AVG - X, 0] = Max[103 - 100, 0] = 3.",
+    "wrong_explanations": {
+      "0": "만기일 가격(100)으로 계산하면 0이 되지만, 평균가격옵션은 기간 평균가격을 사용한다.",
+      "1": "1은 잘못된 계산이다. 평균가격 103에서 행사가격 100을 빼면 3이다.",
+      "3": "6은 최고가(106)에서 행사가격(100)을 뺀 값으로, 일반 콜옵션이나 룩백 옵션의 수익이다."
+    },
+    "coach_message_short": "평균가격 콜 = Max[평균 - 행사가격, 0]! 만기가격이 아닌 평균!",
+    "source_ref": "제2회 모의고사 제2과목 Q36",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S2-MOCK2-037",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "룩백 콜옵션 만기수익",
+    "tags": [
+      "룩백옵션",
+      "콜옵션",
+      "만기수익",
+      "이색옵션"
+    ],
+    "stem": "다음 데이터를 보고 룩백 콜옵션(Lookback Call Option)의 만기수익으로 옳은 것은? (단, 프리미엄은 고려하지 않음)\n\n• 1일 : 100  • 2일 : 104\n• 3일 : 104  • 4일 : 106\n• 5일 : 107  • 6일(만기) : 106",
+    "choices": [
+      "0",
+      "1",
+      "3",
+      "6"
+    ],
+    "correct": 3,
+    "explanation": "룩백 콜옵션의 가치 = Max[S_T - S_low, 0] = Max[106 - 100, 0] = 6. 룩백 콜옵션은 관찰기간 중 가장 낮은 가격(100)에서 매수하여 만기가격(106)에 매도한 것과 같은 효과이다.",
+    "wrong_explanations": {
+      "0": "룩백 콜옵션은 최저가를 매수가로 사용하므로 만기가격이 최저가보다 높으면 항상 양의 수익이 발생한다.",
+      "1": "1은 만기가격(106)과 최고가(107)의 차이로, 룩백 풋옵션과 관련된 값이다.",
+      "2": "3은 평균가격옵션의 수익이다. 룩백 콜은 최저가와 만기가의 차이로 계산한다."
+    },
+    "coach_message_short": "룩백 콜 = 만기가격 - 최저가! 가장 싸게 사서 만기에 파는 효과!",
+    "source_ref": "제2회 모의고사 제2과목 Q37",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-038",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "선택옵션 Chooser Option",
+    "tags": [
+      "선택옵션",
+      "Chooser Option",
+      "이색옵션",
+      "스트래들"
+    ],
+    "stem": "만기일 이전의 일정 시점에서 풋옵션인지 콜옵션인지 여부를 결정할 수 있는 옵션은?",
+    "choices": [
+      "레인보우옵션(Rainbow Option)",
+      "낙인옵션(Knock-in Option)",
+      "낙아웃옵션(Knock-out Option)",
+      "선택옵션(Chooser Option)"
+    ],
+    "correct": 3,
+    "explanation": "선택옵션(Chooser Option)의 매입자는 만기일 이전에 미래의 특정 시점에서 이 옵션이 풋인지 콜인지 여부를 선택할 수 있는 권리를 가진다. 스트래들과 비슷하지만 비용면에서 선택옵션이 더 유리하다.",
+    "wrong_explanations": {
+      "0": "레인보우옵션은 여러 자산 중 실적이 가장 좋은 것의 손익구조에 따라 가치가 결정되는 옵션이다.",
+      "1": "낙인옵션은 기초자산가격이 특정 장벽을 돌파하면 옵션이 활성화되는 옵션이다.",
+      "2": "낙아웃옵션은 기초자산가격이 특정 장벽을 돌파하면 옵션이 소멸하는 옵션이다."
+    },
+    "coach_message_short": "선택옵션 = 나중에 콜/풋 결정! 스트래들보다 저렴한 대안!",
+    "source_ref": "제2회 모의고사 제2과목 Q38",
+    "estimated_sec": 25
+  },
+  {
+    "question_id": "S2-MOCK2-039",
+    "subject_id": "S2",
+    "topic_id": "S2-EXOTIC",
+    "topic_name": "이색옵션",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "레인보우옵션 Rainbow Option",
+    "tags": [
+      "레인보우옵션",
+      "Rainbow Option",
+      "이색옵션",
+      "다자산옵션"
+    ],
+    "stem": "둘 또는 그 이상의 자산 중에서 실적이 가장 좋은 것의 손익구조에 따라 가치가 결정되는 옵션은?",
+    "choices": [
+      "레인보우옵션(Rainbow Option)",
+      "낙인옵션(Knock-in Option)",
+      "낙아웃옵션(Knock-out Option)",
+      "선택옵션(Chooser Option)"
+    ],
+    "correct": 0,
+    "explanation": "레인보우옵션(Rainbow Option)은 같은 종류의 여러 자산을 포함하고 있는데, 이 자산들의 가격 중 가장 좋은 것을 투자자가 취하게 한다.",
+    "wrong_explanations": {
+      "1": "낙인옵션은 기초자산가격이 특정 수준에 도달하면 활성화되는 장벽옵션이다.",
+      "2": "낙아웃옵션은 기초자산가격이 특정 수준에 도달하면 소멸하는 장벽옵션이다.",
+      "3": "선택옵션은 만기 전에 콜인지 풋인지를 선택하는 옵션이다."
+    },
+    "coach_message_short": "레인보우 = 여러 자산 중 최고 실적으로 수익 결정!",
+    "source_ref": "제2회 모의고사 제2과목 Q39",
+    "estimated_sec": 25
+  },
+  {
+    "question_id": "S2-MOCK2-040",
+    "subject_id": "S2",
+    "topic_id": "S2-SWAP",
+    "topic_name": "스왑",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "외환스왑 Buy and Sell",
+    "tags": [
+      "외환스왑",
+      "Buy&Sell",
+      "Sell&Buy",
+      "선물환",
+      "만기불일치"
+    ],
+    "stem": "A기업은 자동차부품을 수출하고 3개월 후 100만달러의 대금을 수령할 예정이다. 그런데 수입업체의 사정으로 1개월 입금지연을 통보받게 되었다. A기업은 달러가치의 하락에 대비하여 미리 선물환 매도를 해놓았는데 선물환거래 만기일과 외환 수령 시기의 불일치가 발생한 것이다. 이를 해결하기 위한 가장 올바른 거래는?",
+    "choices": [
+      "달러 Receiver's 통화스왑",
+      "달러 Payer's 통화스왑",
+      "Buy & Sell(현물환 매입 + 선물환 매도) 외환스왑",
+      "Sell & Buy(현물환 매도 + 선물환 매입) 외환스왑"
+    ],
+    "correct": 2,
+    "explanation": "선물환 매도를 위해서는 일단 달러가 필요하므로 달러를 차입(달러 현물환 매입 + 달러 선물환 매도)하는 Buy & Sell 외환스왑 거래가 필요하다. 3개월 시점에 달러를 현물환으로 매입하여 선물환 매도 이행에 사용하고, 4개월 시점에 수출대금으로 받은 달러를 선물환 매도로 상환한다.",
+    "wrong_explanations": {
+      "0": "통화스왑은 장기적인 원금·이자 교환에 적합하며, 1개월의 단기 만기불일치 해결에는 외환스왑이 더 적절하다.",
+      "1": "통화스왑은 이 상황에 적합하지 않다.",
+      "3": "Sell & Buy는 달러를 먼저 매도하고 나중에 매입하는 구조로, 달러 조달이 아닌 달러 운용에 해당한다."
+    },
+    "coach_message_short": "달러 조달이 필요한 만기불일치 → Buy & Sell 외환스왑!",
+    "source_ref": "제2회 모의고사 제2과목 Q40",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK2-041",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "파생결합사채 ELB 디지털형",
+    "tags": [
+      "ELB",
+      "파생결합사채",
+      "디지털형",
+      "콜스프레드형",
+      "낙아웃형"
+    ],
+    "stem": "파생결합사채(ELB)의 수익구조 중 미리 정한 행사가격 미만에서는 원금을 지급하고, 그 행사가격 이상에서는 미리 정한 고정수익을 지급하는 형태는?",
+    "choices": [
+      "낙아웃 옵션형",
+      "콜 스프레드형",
+      "디지털형",
+      "양방향 낙아웃형"
+    ],
+    "correct": 2,
+    "explanation": "디지털형은 행사가격 미만에서는 원금을, 행사가격 이상에서는 미리 정한 고정수익을 지급하는 형태이다.",
+    "wrong_explanations": {
+      "0": "낙아웃 옵션형은 기초자산가격이 특정 수준을 넘으면 옵션이 소멸하는 구조이다.",
+      "1": "콜 스프레드형은 두 행사가격 사이에서 수익이 발생하는 구조이다.",
+      "3": "양방향 낙아웃형은 상하한 범위 안에서만 수익이 발생하는 구조이다."
+    },
+    "coach_message_short": "디지털형 = 행사가격 기준 원금 또는 고정수익! ON/OFF 구조!",
+    "source_ref": "제2회 모의고사 제2과목 Q41",
+    "estimated_sec": 35
+  },
+  {
+    "question_id": "S2-MOCK2-042",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "high",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "신용연계채권 CLN",
+    "tags": [
+      "CLN",
+      "신용연계채권",
+      "CDS",
+      "신용파생상품",
+      "보장매도자"
+    ],
+    "stem": "신용연계채권(CLN)에 대한 일반적인 설명을 올바르게 묶은 것은?\n\nⓐ CLN에 투자하면 일반채권보다 더 낮은 이자수익률에 만족해야 한다.\nⓑ CLN 투자자는 대상기업에 대한 보장매입자이다.\nⓒ 특수목적회사를 이용하면 준거자산의 신용위험을 제거할 수 있다.\nⓓ 고정금리채권에 신용파생상품이 내장된 형태의 신용구조화상품(Structured Credit Products)이다.\nⓔ 채권에 TRS, 신용스프레드상품 또는 CDS 등의 신용파생상품이 가미된 것이다.\nⓕ 현재 시장에서는 CDS가 가미된 CLN이 가장 일반적이고 대부분을 차지한다.\nⓖ CLN 투자자 입장에서는 준거자산의 신용위험과 CLN 발행자의 신용위험이 모두 존재한다.",
+    "choices": [
+      "ⓐ, ⓑ, ⓒ, ⓔ",
+      "ⓑ, ⓒ, ⓔ, ⓕ",
+      "ⓒ, ⓔ, ⓕ, ⓖ",
+      "ⓓ, ⓔ, ⓕ, ⓖ"
+    ],
+    "correct": 3,
+    "explanation": "ⓐ CLN 투자자는 일반채권보다 더 높은 이자수익률을 기대할 수 있다(낮은→높은). ⓑ CLN 투자자는 대상기업에 대한 보장매도자이다(매입자→매도자). ⓒ 특수목적회사를 이용하면 CLN 발행자의 신용위험을 제거할 수 있다(준거자산→CLN 발행자). 따라서 ⓐ, ⓑ, ⓒ는 잘못된 설명이고 ⓓ, ⓔ, ⓕ, ⓖ가 모두 올바른 설명이다.",
+    "wrong_explanations": {
+      "0": "ⓐ, ⓑ, ⓒ가 모두 잘못된 설명이므로 올바른 묶음이 아니다.",
+      "1": "ⓑ, ⓒ가 잘못된 설명이므로 올바른 묶음이 아니다.",
+      "2": "ⓒ가 잘못된 설명이므로 올바른 묶음이 아니다."
+    },
+    "coach_message_short": "CLN 투자자 = 보장매도자! 높은 수익률 + 이중 신용위험 부담!",
+    "source_ref": "제2회 모의고사 제2과목 Q42",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S2-MOCK2-043",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "스왑션 선도스왑 구조화상품",
+    "tags": [
+      "스왑션",
+      "선도스왑",
+      "Range Forward",
+      "구조화상품"
+    ],
+    "stem": "장외파생상품에 대한 설명 중 내용이 잘못된 것은?",
+    "choices": [
+      "기초자산(Underlying Asset)에 기반을 두고 각종 파생상품이 결합되어 만들어진 새로운 형태의 금융상품을 구조화상품(Structured Products)이라고 한다.",
+      "장외파생상품을 응용하여 새로운 위험-손익구조를 만들어 내는 일은 결국 새로운 구조화상품을 만들어 내는 것이다.",
+      "손실이 제한될 뿐만 아니라 이익 또한 제한되는 것이 범위 선물환(Range Forward)의 손익구조이다.",
+      "스왑과 스왑을 합쳐 만든 상품으로는 스왑션(Swaption)이 있다."
+    ],
+    "correct": 3,
+    "explanation": "스왑션(Swaption)은 옵션과 스왑이 결합된 전형적인 상품이다. 스왑과 스왑을 합쳐 만든 상품은 선도스왑(Forward Start Swap)이다.",
+    "wrong_explanations": {
+      "0": "구조화상품의 정의에 대한 올바른 설명이다.",
+      "1": "장외파생상품 응용과 구조화상품에 대한 올바른 설명이다.",
+      "2": "범위 선물환은 손실과 이익이 모두 제한되는 구조이므로 올바른 설명이다."
+    },
+    "coach_message_short": "스왑션 = 옵션 + 스왑! 선도스왑 = 스왑 + 스왑!",
+    "source_ref": "제2회 모의고사 제2과목 Q43",
+    "estimated_sec": 40
+  },
+  {
+    "question_id": "S2-MOCK2-044",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "조기상환형 스텝다운 ELS",
+    "tags": [
+      "ELS",
+      "스텝다운",
+      "조기상환",
+      "원금비보장"
+    ],
+    "stem": "조기상환형 스텝다운 ELS에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "만기시점에 만기수익상환조건을 달성하지 못하면 원금손실이 발생한다.",
+      "만기를 단기화하여 제시수익률을 낮췄다.",
+      "다양한 장외파생상품을 사용하여 조기상환조건을 삽입하였다.",
+      "원금비보장형으로 고위험 또는 초고위험상품으로 분류된다."
+    ],
+    "correct": 1,
+    "explanation": "조기상환형 스텝다운 ELS는 만기를 장기화하여 제시수익률을 높이되, 다양한 장외파생상품을 사용하여 조기상환조건을 삽입함으로써 시장에서 주력상품으로 성장하였다. '단기화하여 낮췄다'가 아니라 '장기화하여 높였다'가 맞다.",
+    "wrong_explanations": {
+      "0": "만기수익상환조건 미달성 시 원금손실이 발생하므로 올바른 설명이다.",
+      "2": "조기상환조건 삽입을 위해 장외파생상품을 활용하므로 올바른 설명이다.",
+      "3": "원금비보장형 ELS는 고위험 또는 초고위험상품으로 분류되므로 올바른 설명이다."
+    },
+    "coach_message_short": "스텝다운 ELS = 만기 '장기화'로 수익률 '높임' + 조기상환 조건!",
+    "source_ref": "제2회 모의고사 제2과목 Q44",
+    "estimated_sec": 40
+  },
+  {
+    "question_id": "S2-MOCK2-045",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "낙인형 ELS",
+    "tags": [
+      "ELS",
+      "낙인형",
+      "스텝다운",
+      "조기상환",
+      "노낙인형"
+    ],
+    "stem": "조기상환형 스텝다운 ELS 중 가장 보편적인 형태로서, 매 조기상환 시점마다 일정 비율씩 조기상환가격 수준을 낮춰줌으로써 조기상환의 가능성을 높인 구조는?",
+    "choices": [
+      "낙인형",
+      "스프레드형",
+      "노낙인형",
+      "양방향 낙아웃형"
+    ],
+    "correct": 0,
+    "explanation": "낙인형은 조기상환형 스텝다운 ELS 중 가장 보편적인 형태이다.",
+    "wrong_explanations": {
+      "1": "스프레드형은 기초자산 간의 가격차를 이용한 구조이다.",
+      "2": "노낙인형은 낙인 조건 없이 만기상환조건만 있는 구조이다.",
+      "3": "양방향 낙아웃형은 상하한 범위를 설정한 구조이다."
+    },
+    "coach_message_short": "낙인형 = 가장 보편적인 스텝다운 ELS!",
+    "source_ref": "제2회 모의고사 제2과목 Q45",
+    "estimated_sec": 25
+  },
+  {
+    "question_id": "S2-MOCK2-046",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ELW 주식워런트증권",
+    "tags": [
+      "ELW",
+      "레버리지",
+      "내재가치",
+      "시간가치",
+      "변동성",
+      "내재변동성"
+    ],
+    "stem": "주식워런트증권(ELW)에 관한 설명으로 올바른 것은?",
+    "choices": [
+      "적은 투자금액으로도 큰 수익을 얻을 수 있는 레버리지효과가 있다.",
+      "콜 ELW의 기초자산가격에서 권리행사가격을 뺀 부분을 시간가치라고 부른다.",
+      "델타는 기초자산가격이 만기까지 얼마나 크게 변동할 것인가를 계량화한 것이다.",
+      "역사적 변동성은 시장의 ELW 가격에서 역으로 모형에 내재된 변동성을 추출한 것이다."
+    ],
+    "correct": 0,
+    "explanation": "ELW는 적은 투자금액으로 큰 수익을 얻을 수 있는 레버리지효과가 있다. ② 콜 ELW의 기초자산가격에서 권리행사가격을 뺀 부분은 '내재가치'이다. ③ 기초자산가격의 변동 정도를 계량화한 변수는 '변동성'이다. ④ ELW 가격에서 역으로 추출한 것은 '내재변동성'이다.",
+    "wrong_explanations": {
+      "1": "기초자산가격에서 권리행사가격을 뺀 부분은 '내재가치'이다. '시간가치'는 ELW 가격에서 내재가치를 뺀 나머지이다.",
+      "2": "기초자산가격의 변동 정도를 계량화한 것은 '변동성(Volatility)'이다. 델타는 기초자산가격 변화에 대한 옵션가격의 변화율이다.",
+      "3": "시장의 ELW 가격에서 역으로 추출한 변동성은 '내재변동성'이다. '역사적 변동성'은 과거 가격 데이터로 계산한 것이다."
+    },
+    "coach_message_short": "ELW 핵심 = 레버리지! 내재가치≠시간가치, 내재변동성≠역사적변동성!",
+    "source_ref": "제2회 모의고사 제2과목 Q46",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-047",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "전환비율 ELW",
+    "tags": [
+      "ELW",
+      "전환비율",
+      "패리티",
+      "유효기어링"
+    ],
+    "stem": "만기에 ELW 1증권을 행사하여 얻을 수 있는 기초자산의 수는?",
+    "choices": [
+      "패리티",
+      "전환비율",
+      "유효기어링",
+      "손익분기점"
+    ],
+    "correct": 1,
+    "explanation": "전환비율은 만기에 ELW 1증권으로 행사할 수 있는 기초자산의 수를 의미한다. 예를 들어 전환비율이 0.2인 ELW 1증권으로는 해당 기초자산의 1/5에 대해서만 권리를 행사할 수 있다.",
+    "wrong_explanations": {
+      "0": "패리티는 ELW의 내재가치를 전환비율로 나눈 값이다.",
+      "2": "유효기어링은 기초자산 가격 변동에 대한 ELW 가격의 실제 변동 배수이다.",
+      "3": "손익분기점은 투자원금을 회수할 수 있는 기초자산의 가격 수준이다."
+    },
+    "coach_message_short": "전환비율 = ELW 1증권당 행사 가능한 기초자산 수!",
+    "source_ref": "제2회 모의고사 제2과목 Q47",
+    "estimated_sec": 25
+  },
+  {
+    "question_id": "S2-MOCK2-048",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ELS ELD ELF 비교",
+    "tags": [
+      "ELS",
+      "ELD",
+      "ELF",
+      "예금자보호",
+      "파생결합증권"
+    ],
+    "stem": "ELS, ELD, ELF에 대한 설명 중 잘못된 것은?",
+    "choices": [
+      "ELD는 은행에서 발행되는 정기예금으로 예금자보호대상이다.",
+      "ELF는 투신사에서 운용하며 원금은 보장되지 않는다.",
+      "ELS는 증권사에서 발행하는 파생결합증권이다.",
+      "ELD는 실적에 따라 배당하며 원금이 100% 보장된다."
+    ],
+    "correct": 3,
+    "explanation": "ELD는 만기에 사전약정수익률을 배당하며 실적배당상품이 아니다. 원금은 100% 보장되지만 '실적에 따라 배당'한다는 것이 잘못된 설명이다.",
+    "wrong_explanations": {
+      "0": "ELD는 은행에서 발행하는 정기예금으로 예금자보호 대상이므로 올바른 설명이다.",
+      "1": "ELF는 투자신탁회사에서 운용하는 펀드로 원금이 보장되지 않으므로 올바른 설명이다.",
+      "2": "ELS는 증권사에서 발행하는 파생결합증권이므로 올바른 설명이다."
+    },
+    "coach_message_short": "ELD = 사전약정수익률 배당! 실적배당이 아닌 확정금리형!",
+    "source_ref": "제2회 모의고사 제2과목 Q48",
+    "estimated_sec": 35
+  },
+  {
+    "question_id": "S2-MOCK2-049",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "조기상환형 ELS 투자전략",
+    "tags": [
+      "ELS",
+      "조기상환",
+      "낙인",
+      "투자전략",
+      "안전성"
+    ],
+    "stem": "조기상환형 ELS의 투자전략에 대한 설명으로 가장 거리가 먼 것은?",
+    "choices": [
+      "기초자산의 개수는 적을수록 더 안정적이다.",
+      "기초자산의 가격은 고점일 때 보다 저점일 때 상대적으로 유리하다.",
+      "만기상환조건은 최초 기준가격 대비 낮으면 낮을수록 안전성 측면에서 투자자에게 유리하다.",
+      "낙인(KI)조건은 최초 기준가격 대비 높으면 높을수록 안전성 측면에서 투자자에게 유리하다."
+    ],
+    "correct": 3,
+    "explanation": "낙인(KI)조건은 원금손실 발생조건이므로, 최초 기준가격 대비 낮으면 낮을수록(도달하기 어려울수록) 안전성 측면에서 투자자에게 유리하다. '높으면 높을수록 유리'는 잘못된 설명이다.",
+    "wrong_explanations": {
+      "0": "기초자산이 적을수록 개별 자산 리스크에 대한 노출이 줄어 안정적이므로 올바른 설명이다.",
+      "1": "기초자산 가격이 저점일 때 진입하면 하락 여력이 적어 상대적으로 유리하므로 올바른 설명이다.",
+      "2": "만기상환조건이 낮을수록 충족하기 쉬워 투자자에게 유리하므로 올바른 설명이다."
+    },
+    "coach_message_short": "낙인(KI) = 원금손실 조건! 낮을수록(도달 어려울수록) 투자자에게 유리!",
+    "source_ref": "제2회 모의고사 제2과목 Q49",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S2-MOCK2-050",
+    "subject_id": "S2",
+    "topic_id": "S2-STRUCT",
+    "topic_name": "파생결합증권",
+    "question_type": "mcq",
+    "difficulty": "low",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "ETN 특징",
+    "tags": [
+      "ETN",
+      "파생결합증권",
+      "채권형식",
+      "주식형식"
+    ],
+    "stem": "ETN의 특징에 대한 설명 중 잘못된 것은?",
+    "choices": [
+      "ETN의 발행을 위해서는 증권사의 신용등급이 AA- 이상이어야 한다.",
+      "ETN은 거래소에 상장되어 거래되는 파생결합증권이다.",
+      "ETN은 주식형식으로 발행되어 신속하고 유연하다.",
+      "ETN은 신상품에 대한 접근성이 뛰어나다."
+    ],
+    "correct": 2,
+    "explanation": "ETN은 채권형식으로 발행되어 신속하고 유연하다. '주식형식'이 아니라 '채권형식'이 올바른 표현이다.",
+    "wrong_explanations": {
+      "0": "ETN 발행을 위해서는 증권사의 신용등급이 AA- 이상이어야 하므로 올바른 설명이다.",
+      "1": "ETN은 거래소에 상장되어 거래되는 파생결합증권이므로 올바른 설명이다.",
+      "3": "ETN은 다양한 기초자산에 대한 접근성이 뛰어나므로 올바른 설명이다."
+    },
+    "coach_message_short": "ETN = '채권'형식! 주식형식이 아닙니다!",
+    "source_ref": "제2회 모의고사 제2과목 Q50",
+    "estimated_sec": 30
+  }
+]
