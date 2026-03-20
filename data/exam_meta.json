@@ -49,8 +49,8 @@
     }
   ],
   "question_bank": {
-    "total": 210,
-    "by_subject": { "S1": 60, "S2": 50, "S3": 50, "S4": 50 }
+    "total": 310,
+    "by_subject": { "S1": 85, "S2": 75, "S3": 75, "S4": 75 }
   },
   "mock_exam_sets": [
     {

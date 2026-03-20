@@ -1757,5 +1757,831 @@
     "source_ref": "제2회 모의고사 제3과목 Q75",
     "estimated_sec": 30,
     "coach_message_long": "거래제도의 핵심: 거래시간(9시~15시45분), 기본예탁금(필수), 일일정산(당일차금+갱신차금), 추가증거금(손실 시). 최종거래일은 금리·통화는 11시30분, 주식은 15시20분에 마감돼요!"
+  },
+  {
+    "question_id": "S3-NEW-001",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "리스크 정의와 특성",
+    "tags": [
+      "리스크",
+      "불확실성",
+      "기본개념"
+    ],
+    "stem": "다음 중 리스크에 대한 설명으로 옳은 것은?",
+    "choices": [
+      "리스크는 언제나 부정적인 결과만을 초래한다.",
+      "리스크는 측정 가능한 불확실성을 의미한다.",
+      "리스크 관리의 최종 목표는 모든 리스크를 완전히 제거하는 것이다.",
+      "리스크는 통제할 수 없는 우연의 사건만을 의미한다."
+    ],
+    "correct": 1,
+    "explanation": "리스크는 측정 가능한 불확실성을 의미하며, 적절히 관리할 경우 그에 상응하는 보상이 제공된다. 완전한 제거가 아닌 최적 수준의 관리가 목표다.",
+    "wrong_explanations": {
+      "0": "리스크는 긍정적 결과(수익 증가)도 포함할 수 있다.",
+      "2": "모든 리스크를 제거하는 것은 불가능하며, 적절한 수준으로 관리하는 것이 실질적 목표다.",
+      "3": "리스크는 예측 가능한 불확실성이므로 측정과 통제가 가능하다."
+    },
+    "coach_message_short": "리스크 = 측정 가능한 불확실성! 완전한 제거가 아닌 최적 관리가 목표",
+    "source_ref": "제3과목 제1장 리스크관리 기본개념",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-002",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "신용리스크와 시장리스크 구분",
+    "tags": [
+      "신용리스크",
+      "시장리스크",
+      "리스크 분류"
+    ],
+    "stem": "신용리스크에 대한 설명 중 가장 적절한 것은?",
+    "choices": [
+      "채무자가 약정된 원리금을 기한 내에 지급하지 못할 위험이다.",
+      "금리 변동으로 인해 채권 가격이 하락할 위험이다.",
+      "거래상대방의 신용등급 변동으로 인한 포트폴리오 손실이다.",
+      "국가 신용도 악화로 인한 전체 시장의 동시 부도 위험이다."
+    ],
+    "correct": 0,
+    "explanation": "신용리스크는 채무불이행 위험으로, 거래상대방이 약정된 의무를 이행하지 못할 경우의 경제적 손실 위험을 의미한다.",
+    "wrong_explanations": {
+      "1": "금리 변동은 시장리스크에 해당한다.",
+      "2": "신용등급 변동에 따른 손실은 신용리스크의 한 측면이지만, 정의로는 부정확하다.",
+      "3": "국가 신용도 악화는 시스템리스크나 거시적 리스크에 더 가깝다."
+    },
+    "coach_message_short": "신용리스크 = 채무불이행 위험! 거래상대방 신용 관련",
+    "source_ref": "제3과목 제1장 리스크의 유형",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-003",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "hard",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "VaR 계산",
+    "tags": [
+      "VaR",
+      "변동성",
+      "계산"
+    ],
+    "stem": "100억원의 포트폴리오에서 일별 변동성이 2%, 신뢰수준 95% (Z=1.65)일 때 1일 VaR는?",
+    "choices": [
+      "1.65억원",
+      "2.00억원",
+      "3.30억원",
+      "4.95억원"
+    ],
+    "correct": 2,
+    "explanation": "VaR = 신뢰계수 × 포트폴리오 가치 × 변동성 = 1.65 × 100억 × 0.02 = 3.30억원. 이는 95% 확률로 1일 손실이 3.30억원 이내임을 의미한다.",
+    "wrong_explanations": {
+      "0": "신뢰계수만으로 계산한 값으로, 포트폴리오 규모와 변동성을 곱해야 한다.",
+      "1": "변동성만으로 계산한 값이다.",
+      "3": "100억원의 4.95%로 계산한 오류다."
+    },
+    "coach_message_short": "VaR = Z값 × 자산가치 × 변동성! 95% 신뢰수준 Z=1.65 필수 암기",
+    "source_ref": "제3과목 제1장 VaR 측정",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S3-NEW-004",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "유동성리스크",
+    "tags": [
+      "유동성",
+      "청산",
+      "거래비용"
+    ],
+    "stem": "다음 중 유동성리스크에 대한 설명으로 잘못된 것은?",
+    "choices": [
+      "포지션을 마감할 때 발생하는 비용에 대한 위험이다.",
+      "시장유동성리스크와 자금조달유동성리스크로 구분된다.",
+      "금리 변동에 따른 채권 가격 변동 위험을 의미한다.",
+      "거래량이 적은 상품은 유동성리스크가 클 수 있다."
+    ],
+    "correct": 2,
+    "explanation": "금리 변동에 따른 채권 가격 변동은 시장리스크(금리리스크)이며, 유동성리스크가 아니다. 유동성리스크는 청산 시 비용과 관련된 것이다.",
+    "wrong_explanations": {
+      "0": "유동성리스크의 정의에 해당한다.",
+      "1": "유동성리스크의 올바른 분류다.",
+      "3": "거래량 부족은 유동성리스크의 원인이다."
+    },
+    "coach_message_short": "유동성리스크 ≠ 금리리스크! 청산 비용 위험임을 명확히",
+    "source_ref": "제3과목 제1장 리스크의 유형",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-005",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "운영리스크",
+    "tags": [
+      "운영리스크",
+      "내부통제",
+      "비재무리스크"
+    ],
+    "stem": "운영리스크의 원인으로 포함되지 않는 것은?",
+    "choices": [
+      "인력 부족으로 인한 업무 오류",
+      "시스템 장애 또는 전산망 마비",
+      "환율 변동으로 인한 손실",
+      "외부 사건(도난, 사기) 등으로 인한 손실"
+    ],
+    "correct": 2,
+    "explanation": "환율 변동으로 인한 손실은 시장리스크(환율리스크)에 해당하며, 운영리스크가 아니다. 운영리스크는 내부 과정, 인력, 시스템, 외부사건 부실로 인한 손실을 의미한다.",
+    "wrong_explanations": {
+      "0": "인적리스크로서 운영리스크에 포함된다.",
+      "1": "내부시스템리스크로서 운영리스크에 포함된다.",
+      "3": "외부사건리스크로서 운영리스크에 포함된다."
+    },
+    "coach_message_short": "운영리스크 = 내부 문제! 시장변수(환율, 금리)는 시장리스크",
+    "source_ref": "제3과목 제1장 비재무리스크",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-006",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "변동성 추정 방법",
+    "tags": [
+      "변동성",
+      "EWMA",
+      "이동평균"
+    ],
+    "stem": "변동성을 추정하는 방법 중 오래된 수익률일수록 가중치를 낮춰 반영하는 방법은?",
+    "choices": [
+      "단순이동평균모형",
+      "옵션의 내재변동성 이용",
+      "시간가변성(GARCH) 모형",
+      "지수가중이동평균(EWMA) 모형"
+    ],
+    "correct": 3,
+    "explanation": "EWMA(Exponentially Weighted Moving Average) 모형은 리스크메트릭스로도 불리며, 오래된 자료일수록 기하급수적으로 감소하는 가중치를 부여한다.",
+    "wrong_explanations": {
+      "0": "단순이동평균은 모든 과거 자료에 동일한 가중치를 부여한다.",
+      "1": "옵션 가격으로부터 역산하여 변동성을 추정하는 방법이다.",
+      "2": "시간 경과에 따른 변동성의 변화를 모델링하는 방식이다."
+    },
+    "coach_message_short": "EWMA = 최근 자료에 높은 가중치! 리스크메트릭스와 동일",
+    "source_ref": "제3과목 제1장 변동성 추정",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-007",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "hard",
+    "calc_required": true,
+    "law_related": false,
+    "keyword": "포트폴리오 VaR 분산효과",
+    "tags": [
+      "포트폴리오VaR",
+      "상관계수",
+      "분산효과"
+    ],
+    "stem": "A자산 VaR 60억원, B자산 VaR 40억원, 상관계수 0.5일 때 포트폴리오 VaR는?",
+    "choices": [
+      "64.03억원",
+      "70.00억원",
+      "84.85억원",
+      "87.18억원"
+    ],
+    "correct": 3,
+    "explanation": "VaR_P = √(60² + 40² + 2×0.5×60×40) = √(3,600 + 1,600 + 2,400) = √7,600 ≈ 87.18억원",
+    "wrong_explanations": {
+      "0": "계산 오류",
+      "1": "상관계수를 반영하지 않은 값",
+      "2": "계산 결과가 아닌 값"
+    },
+    "coach_message_short": "포트폴리오 VaR = √(VaR_A² + VaR_B² + 2ρVaR_A×VaR_B)",
+    "source_ref": "제3과목 제1장 포트폴리오 VaR",
+    "estimated_sec": 70
+  },
+  {
+    "question_id": "S3-NEW-008",
+    "subject_id": "S3",
+    "topic_id": "S3-RISK",
+    "topic_name": "리스크관리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "기대손실과 기대외손실",
+    "tags": [
+      "신용리스크",
+      "EL",
+      "UL"
+    ],
+    "stem": "기대손실(EL)과 기대외손실(UL)의 관계에 대한 설명으로 옳은 것은?",
+    "choices": [
+      "기대손실은 예측 가능하므로 가격에 반영되고, 기대외손실은 자본으로 보충해야 한다.",
+      "기대손실과 기대외손실은 동일한 개념이다.",
+      "기대외손실이 항상 기대손실보다 크다.",
+      "기대손실만 관리하면 신용리스크 관리가 충분하다."
+    ],
+    "correct": 0,
+    "explanation": "기대손실(Expected Loss)은 예상되는 손실로 가격에 반영되고, 기대외손실(Unexpected Loss)은 예상치 못한 손실로 자본(자기자본)으로 보충해야 한다.",
+    "wrong_explanations": {
+      "1": "두 개념은 완전히 다르다.",
+      "2": "기대외손실이 항상 큰 것은 아니며, 포트폴리오 특성에 따라 결정된다.",
+      "3": "기대외손실 관리도 동일하게 중요하다."
+    },
+    "coach_message_short": "EL = 가격반영, UL = 자본보충! 둘 다 관리 필수",
+    "source_ref": "제3과목 제1장 신용리스크",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-009",
+    "subject_id": "S3",
+    "topic_id": "S3-TRADE",
+    "topic_name": "파생상품거래",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "장외파생상품 신용리스크",
+    "tags": [
+      "장외",
+      "OTC",
+      "신용리스크"
+    ],
+    "stem": "장외파생상품의 신용리스크 특성으로 옳지 않은 것은?",
+    "choices": [
+      "거래소가 담보 및 증거금을 요구하지 않을 수 있다.",
+      "계약당사자 간의 신용 평가가 중요하다.",
+      "거래상대방의 부도로 인한 손실 가능성이 있다.",
+      "거래소가 거래 이행을 보증하므로 신용리스크가 없다."
+    ],
+    "correct": 3,
+    "explanation": "장외파생상품은 거래소를 통하지 않으므로 거래소의 보증이 없으며, 거래상대방 부도 위험에 직접 노출된다.",
+    "wrong_explanations": {
+      "0": "장외시장은 규제가 약해 담보 요구가 유연하다.",
+      "1": "장외 거래에서는 신용도 높은 거래처를 선별해야 한다.",
+      "2": "신용리스크의 핵심이 부도 위험이다."
+    },
+    "coach_message_short": "장외 = 거래소 보증 없음 → 신용리스크 있음!",
+    "source_ref": "제3과목 제1장 파생상품의 신용리스크",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-010",
+    "subject_id": "S3",
+    "topic_id": "S3-TRADE",
+    "topic_name": "파생상품거래",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "선물의 리스크",
+    "tags": [
+      "선물",
+      "헤지",
+      "기초자산"
+    ],
+    "stem": "주식선물을 이용한 헤지거래에 대한 설명 중 가장 적절한 것은?",
+    "choices": [
+      "선물의 가격 변동은 기초자산과 완전히 독립적이다.",
+      "기초자산 가격 하락에 대비해 선물을 매도로 헤지할 수 있다.",
+      "선물 거래는 항상 손실만 발생시킨다.",
+      "선물의 손실을 보험으로 보장받을 수 있다."
+    ],
+    "correct": 1,
+    "explanation": "포트폴리오의 기초자산 가격 하락 시 선물 매도 포지션으로 헤지하면, 기초자산의 손실을 선물의 이익으로 상쇄할 수 있다.",
+    "wrong_explanations": {
+      "0": "선물 가격은 기초자산을 반영하여 결정되며 연동성이 높다.",
+      "2": "적절한 헤지로 손실을 줄일 수 있다.",
+      "3": "선물은 보험 상품이 아니다."
+    },
+    "coach_message_short": "주식 하락 대비: 선물 매도 헤지! 기초자산 손실 ↔ 선물 이익",
+    "source_ref": "제3과목 제1장 파생상품 리스크관리",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-011",
+    "subject_id": "S3",
+    "topic_id": "S3-TRADE",
+    "topic_name": "파생상품거래",
+    "question_type": "mcq",
+    "difficulty": "hard",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "옵션의 Greeks",
+    "tags": [
+      "옵션",
+      "델타",
+      "감마",
+      "민감도"
+    ],
+    "stem": "옵션 포트폴리오 관리에서 델타가 양수인 콜옵션 포지션이 있을 때, 기초자산 가격이 상승하면?",
+    "choices": [
+      "기초자산 가격 변동 폭에 따라 델타 자체가 변한다(감마 효과). 이로 인해 실제 손익이 선형 추정과 다를 수 있다.",
+      "옵션은 비선형 특성이 있으므로 항상 선형적이지 않다.",
+      "옵션 가치는 감소한다.",
+      "델타 값의 변화 없이 같은 비율로 손익이 발생한다."
+    ],
+    "correct": 1,
+    "explanation": "콜옵션은 기초자산 상승 시 가치가 증가하지만(양의 델타), 기초자산 가격 변동 폭에 따라 델타 자체가 변한다(감마 효과). 이로 인해 실제 손익이 선형 추정과 다를 수 있다.",
+    "wrong_explanations": {
+      "0": "옵션은 비선형이므로 선형 추정이 맞지 않을 수 있다.",
+      "2": "콜옵션의 양의 델타 특성상 기초자산 상승 시 가치가 증가한다.",
+      "3": "감마 효과로 인해 비선형적으로 변한다."
+    },
+    "coach_message_short": "옵션 = 비선형! 델타 일정하지 않음 (감마 효과)",
+    "source_ref": "제3과목 제1장 파생상품의 VaR",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S3-NEW-012",
+    "subject_id": "S3",
+    "topic_id": "S3-TRADE",
+    "topic_name": "파생상품거래",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "금리스왑의 리스크",
+    "tags": [
+      "금리스왑",
+      "VaR",
+      "이자율"
+    ],
+    "stem": "금리스왑에서 변동금리를 받고 고정금리를 지불하는 Receiver Swap의 VaR를 계산할 때 고려할 요소로 옳은 것은?",
+    "choices": [
+      "변동금리 채권의 VaR만 고려하면 된다.",
+      "고정금리 채권의 VaR에서 변동금리 채권의 VaR를 차감한다.",
+      "변동금리 채권의 VaR에서 고정금리 채권의 VaR를 차감한다.",
+      "두 채권의 VaR를 단순히 합산한다."
+    ],
+    "correct": 2,
+    "explanation": "Receiver Swap은 변동금리를 받으므로 변동금리 채권 매입, 고정금리를 지불하므로 고정금리 채권 매도와 동일하다. 따라서 VaR = 변동금리 VaR - 고정금리 VaR이다.",
+    "wrong_explanations": {
+      "0": "두 금리 모두의 리스크를 고려해야 한다.",
+      "1": "계산 방식이 반대다.",
+      "3": "상관관계가 있으므로 단순 합산이 아니다."
+    },
+    "coach_message_short": "Receiver Swap VaR = 변동금리 VaR - 고정금리 VaR",
+    "source_ref": "제3과목 제1장 파생상품의 VaR",
+    "estimated_sec": 55
+  },
+  {
+    "question_id": "S3-NEW-013",
+    "subject_id": "S3",
+    "topic_id": "S3-TRADE",
+    "topic_name": "파생상품거래",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": false,
+    "keyword": "해지거래 특성",
+    "tags": [
+      "해지거래",
+      "청산",
+      "선물"
+    ],
+    "stem": "파생상품의 해지거래(청산거래)에 대한 설명으로 옳은 것은?",
+    "choices": [
+      "항상 손실이 발생하는 거래다.",
+      "기존 포지션과 반대 방향의 거래로 포지션을 종료하는 것이다.",
+      "새로운 리스크를 추가하는 거래다.",
+      "규제기관의 승인을 받아야만 가능하다."
+    ],
+    "correct": 1,
+    "explanation": "해지거래는 기존 보유한 포지션을 종료하기 위해 반대 방향의 거래를 실행하는 것으로, 이익이 발생할 수도 있고 손실이 발생할 수도 있다.",
+    "wrong_explanations": {
+      "0": "손익은 거래 시점의 시장 상황에 따라 결정된다.",
+      "2": "기존 리스크를 해소하는 것이 목적이다.",
+      "3": "일반적인 거래 규칙에 따르면 되며 별도 승인이 필요하지 않다."
+    },
+    "coach_message_short": "해지거래 = 포지션 청산! 반대 방향 거래로 종료",
+    "source_ref": "제3과목 제1장 파생상품 리스크관리",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-014",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": true,
+    "law_related": true,
+    "keyword": "직무윤리의 정의",
+    "tags": [
+      "직무윤리",
+      "신의성실",
+      "기본개념"
+    ],
+    "stem": "직무윤리에 대한 설명으로 가장 적절한 것은?",
+    "choices": [
+      "자신의 이익만 추구하는 것",
+      "자신과 상대방의 이익충돌 상황에서 상대방 이익을 우선하는 것",
+      "외부 감시기관의 강제로만 지켜지는 것",
+      "법적 규제가 없으면 따를 필요가 없다"
+    ],
+    "correct": 1,
+    "explanation": "직무윤리의 핵심은 이익충돌 상황에서 상대방의 신뢰를 지키고 상대방 이익을 우선하는 행동 선택을 의미한다.",
+    "wrong_explanations": {
+      "0": "자신과 상대방 이익의 균형을 고려해야 한다.",
+      "2": "윤리는 자율과 타율의 결합이다.",
+      "3": "윤리는 법보다 광범위한 개념이다."
+    },
+    "coach_message_short": "직무윤리 = 이익충돌에서 상대방 신뢰 지키기!",
+    "source_ref": "제3과목 제3장 직무윤리",
+    "estimated_sec": 65
+  },
+  {
+    "question_id": "S3-NEW-015",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "이해상충 방지 의무",
+    "tags": [
+      "이해상충",
+      "Chinese Wall",
+      "정보차단"
+    ],
+    "stem": "금융투자업자의 이해상충 방지 의무에 해당하지 않는 것은?",
+    "choices": [
+      "정보 교류 차단(Chinese Wall)",
+      "자기거래 금지",
+      "고객과의 이익 공동 추구",
+      "투자자 보호 우선"
+    ],
+    "correct": 2,
+    "explanation": "이해상충 방지는 고객 이익과 자사의 이익이 충돌할 때 고객 이익을 우선하는 것이며, 이익을 공동으로 추구하는 것이 아니다.",
+    "wrong_explanations": {
+      "0": "정보차단(정보제공행위 금지), 직무차단, 공간차단, 전산차단 등이 포함된다.",
+      "1": "자기거래 금지는 이해상충 방지의 핵심이다.",
+      "3": "고객 보호가 최우선이다."
+    },
+    "coach_message_short": "이해상충 방지 = 고객 이익 우선! 이익 공동 추구는 위반",
+    "source_ref": "제3과목 제3장 금융투자업 직무윤리",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-016",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "투자권유대행인의 의무",
+    "tags": [
+      "투자권유",
+      "적합성",
+      "정보제공"
+    ],
+    "stem": "투자권유자문인력의 직무윤리 준수 범위로 옳지 않은 것은?",
+    "choices": [
+      "고객의 투자목표를 파악하고 적합한 상품을 권유해야 한다.",
+      "고객에게 충분한 정보를 제공해야 한다.",
+      "고객의 손실을 보장해야 한다.",
+      "이해상충이 발생하지 않도록 관리해야 한다."
+    ],
+    "correct": 2,
+    "explanation": "투자자문인력은 정보 제공과 적합성 심사 의무는 있지만, 투자 손실을 보장할 법적 의무는 없다. 투자 손실은 고객이 부담하는 것이 원칙이다.",
+    "wrong_explanations": {
+      "0": "적합성 원칙의 핵심이다.",
+      "1": "정보제공 의무의 기본이다.",
+      "3": "이해상충 방지의 필수 요소다."
+    },
+    "coach_message_short": "투자자문인 손실 보장 의무 없음! 정보제공과 적합성만 의무",
+    "source_ref": "제3과목 제3장 직무윤리 의무",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-017",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "금융소비자 기준",
+    "tags": [
+      "소비자",
+      "보호",
+      "기준"
+    ],
+    "stem": "금융소비자에 해당하는 고객은?",
+    "choices": [
+      "모든 금융상품 거래자",
+      "일반투자자뿐 아니라 전문투자자도 포함될 수 있다",
+      "자산이 일정 규모 이상인 투자자만 해당",
+      "기관투자자는 절대 해당하지 않는다"
+    ],
+    "correct": 1,
+    "explanation": "금융소비자보호법은 자본시장법상 투자성 상품뿐 아니라 대출성, 보장성 상품까지 확대 적용하며, 일반투자자뿐 아니라 일부 전문투자자도 포함될 수 있다.",
+    "wrong_explanations": {
+      "0": "모든 거래자가 포함되지는 않는다.",
+      "2": "자산 규모가 기준이 아니라 상품 성격이 기준이다.",
+      "3": "기관투자자도 일부 상황에서 소비자로 분류될 수 있다."
+    },
+    "coach_message_short": "금융소비자 = 투자성 + 대출성 + 보장성 상품 이용자",
+    "source_ref": "제3과목 제3장 직무윤리 기초",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-018",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "hard",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "과당매매 적발",
+    "tags": [
+      "과당매매",
+      "이해상충",
+      "위반"
+    ],
+    "stem": "다음 중 과당매매로 적발될 가능성이 가장 낮은 거래는?",
+    "choices": [
+      "고객 요청과 무관하게 거래 회전율을 높이기 위해 자주 매매 반복",
+      "고객의 장기 자산 운용 목표에 부합하는 적절한 매매 빈도로 거래",
+      "거래 수수료 수익을 위해 불필요한 매매 추천",
+      "고객 자산 규모에 비해 과도한 거래량으로 거래"
+    ],
+    "correct": 1,
+    "explanation": "과당매매는 고객의 이익과 무관하게 거래 수수료 수익을 위해 부당한 거래를 반복하는 행위다. 고객의 목표에 부합하는 적절한 거래는 정당한 투자 활동이다.",
+    "wrong_explanations": {
+      "0": "목표 달성과 무관한 거래 반복은 과당매매다.",
+      "2": "고객 편익 없이 수수료 추구는 위반이다.",
+      "3": "자산 규모 대비 과도한 거래는 문제가 될 수 있다."
+    },
+    "coach_message_short": "과당매매 판단 기준: 고객 이익과 무관한 거래인지?",
+    "source_ref": "제3과목 제3장 직무윤리 위반 사례",
+    "estimated_sec": 55
+  },
+  {
+    "question_id": "S3-NEW-019",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": true,
+    "law_related": true,
+    "keyword": "공정거래 원칙",
+    "tags": [
+      "공정거래",
+      "정보우위",
+      "신뢰"
+    ],
+    "stem": "고객이 500만원을 투자했을 때 연 수익률이 -5%라면, 1년 후 고객의 자산은?",
+    "choices": [
+      "4.75만원",
+      "475만원",
+      "495만원",
+      "525만원"
+    ],
+    "correct": 2,
+    "explanation": "1년 후 자산 = 500만원 × (1 - 0.05) = 500만원 × 0.95 = 475만원. 손실액은 25만원이다.",
+    "wrong_explanations": {
+      "0": "손실액만 계산한 것 (500 × 0.05 = 25, 오류)",
+      "1": "올바른 계산: 500 × 0.95 = 475만원. 이 문항의 정답",
+      "3": "수익을 가정했을 때의 값"
+    },
+    "coach_message_short": "손실률 계산: 원금 × (1-손실률) = 최종자산",
+    "source_ref": "제3과목 제3장 금융투자업 윤리원칙",
+    "estimated_sec": 60
+  },
+  {
+    "question_id": "S3-NEW-020",
+    "subject_id": "S3",
+    "topic_id": "S3-ETHICS",
+    "topic_name": "직무윤리",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "재산상 이익 제공 금지",
+    "tags": [
+      "뇌물",
+      "이익제공",
+      "금지"
+    ],
+    "stem": "금융투자회사가 금지해야 할 행위로 옳은 것은?",
+    "choices": [
+      "상품 설명회 개최 시 간단한 다과 제공",
+      "합법적인 거래 수수료의 수취",
+      "투자수익에 따른 수수료 수취",
+      "정당한 대가 없이 고객에게 재산상 이익을 제공하는 행위"
+    ],
+    "correct": 3,
+    "explanation": "금융투자업자는 고객에게 정당한 대가 없이 재산상 이익을 제공하여 부당한 영향을 미치는 행위를 금지해야 한다.",
+    "wrong_explanations": {
+      "0": "통상적인 수준의 선물은 문제되지 않는다.",
+      "1": "정당한 거래 수수료는 합법이다.",
+      "2": "정당한 대가로서의 수수료는 합법이다."
+    },
+    "coach_message_short": "정당한 대가 없는 이익제공 금지! 뇌물 개념",
+    "source_ref": "제3과목 제3장 직무윤리 위반 행위",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-021",
+    "subject_id": "S3",
+    "topic_id": "S3-COMPLIANCE",
+    "topic_name": "법규준수·투자자분쟁예방",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "투자자분쟁예방 원칙",
+    "tags": [
+      "분쟁예방",
+      "고객",
+      "기록"
+    ],
+    "stem": "투자자분쟁 예방을 위한 기본 원칙으로 가장 적절한 것은?",
+    "choices": [
+      "분쟁이 발생한 후 해결하는 것으로 충분하다",
+      "사전 예방 및 조기 해결 시스템을 구축한다",
+      "고객과의 모든 거래 기록은 보관할 필요가 없다",
+      "법적 분쟁만 중요하다"
+    ],
+    "correct": 1,
+    "explanation": "투자자분쟁 예방은 사전 예방 및 조기 해결이 핵심이며, 이를 위해 거래 기록 보관, 설명의무, 적합성 심사 등의 시스템을 구축해야 한다.",
+    "wrong_explanations": {
+      "0": "사후 해결보다 사전 예방이 더 중요하다.",
+      "2": "분쟁 해결을 위해 거래 기록 보관은 필수다.",
+      "3": "비용 분쟁도 중요하다."
+    },
+    "coach_message_short": "분쟁예방 = 사전 예방 + 조기 해결! 기록 보관 필수",
+    "source_ref": "제3과목 제3장 투자자분쟁예방",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-022",
+    "subject_id": "S3",
+    "topic_id": "S3-COMPLIANCE",
+    "topic_name": "법규준수·투자자분쟁예방",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "자금세탁방지(AML)",
+    "tags": [
+      "자금세탁",
+      "AML",
+      "KYC"
+    ],
+    "stem": "자금세탁 방지 제도에서 KYC(Know Your Customer)의 의미는?",
+    "choices": [
+      "고객의 투자 수익 최대화",
+      "고객을 파악하고 확인하는 절차",
+      "고객 자산의 안전 보관",
+      "고객 정보의 공개"
+    ],
+    "correct": 1,
+    "explanation": "KYC는 고객 신원, 자금 출처, 자금 사용 목적 등을 파악하고 확인하는 필수 절차로, 자금세탁 및 테러자금 조달 방지의 핵심이다.",
+    "wrong_explanations": {
+      "0": "투자 수익과는 무관하다.",
+      "2": "자산 보관과는 다른 개념이다.",
+      "3": "정보 보호가 원칙이다."
+    },
+    "coach_message_short": "KYC = 고객 신원 파악! 자금세탁 방지 핵심",
+    "source_ref": "제3과목 제3장 자금세탁방지",
+    "estimated_sec": 45
+  },
+  {
+    "question_id": "S3-NEW-023",
+    "subject_id": "S3",
+    "topic_id": "S3-COMPLIANCE",
+    "topic_name": "법규준수·투자자분쟁예방",
+    "question_type": "mcq",
+    "difficulty": "hard",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "의심거래 보고",
+    "tags": [
+      "의심거래",
+      "보고",
+      "AML"
+    ],
+    "stem": "다음 중 의심거래 보고 대상이 될 가능성이 낮은 거래는?",
+    "choices": [
+      "일반적이지 않은 거액의 현금 입금 직후 송금",
+      "거래 패턴과 맞지 않는 비정상적인 거래",
+      "정상적인 거래 규모와 빈도 범위 내의 정기적 거래",
+      "자금 출처를 확인하기 어려운 거래"
+    ],
+    "correct": 2,
+    "explanation": "의심거래는 비정상적이거나 불가설한 거래 패턴을 보이는 경우에 해당하며, 정상적인 범위 내의 거래는 보고 대상이 아니다.",
+    "wrong_explanations": {
+      "0": "구조화 거래(smurfing)의 전형적 사례다.",
+      "1": "비정상 패턴은 의심거래의 징후다.",
+      "3": "출처 불명확은 의심 사유가 된다."
+    },
+    "coach_message_short": "의심거래 기준: 비정상성 + 불가설성! 정상 거래는 제외",
+    "source_ref": "제3과목 제3장 자금세탁 방지",
+    "estimated_sec": 55
+  },
+  {
+    "question_id": "S3-NEW-024",
+    "subject_id": "S3",
+    "topic_id": "S3-COMPLIANCE",
+    "topic_name": "법규준수·투자자분쟁예방",
+    "question_type": "mcq",
+    "difficulty": "medium",
+    "calc_required": false,
+    "law_related": true,
+    "keyword": "내부통제 기준",
+    "tags": [
+      "내부통제",
+      "감시",
+      "준수"
+    ],
+    "stem": "금융투자회사의 내부통제 기준으로 옳지 않은 것은?",
+    "choices": [
+      "거래의 합법성 여부를 사후 확인할 필요가 없다",
+      "직무의 분리와 견제 체계를 구축한다",
+      "임직원의 직무윤리를 감시한다",
+      "내부통제 관련 규정을 정기적으로 검토한다"
+    ],
+    "correct": 0,
+    "explanation": "내부통제는 거래의 합법성 및 적정성을 사전·사후로 모두 감시해야 하는 것이 핵심이다. 사후 확인은 필수적인 부분이다.",
+    "wrong_explanations": {
+      "1": "내부통제의 기본 원칙이다.",
+      "2": "감시 체계는 필수다.",
+      "3": "규정의 지속적 개선이 필요하다."
+    },
+    "coach_message_short": "내부통제 = 사전+사후 감시! 규칙적 점검 필수",
+    "source_ref": "제3과목 제3장 직무윤리 준수 절차",
+    "estimated_sec": 50
+  },
+  {
+    "question_id": "S3-NEW-025",
+    "subject_id": "S3",
+    "topic_id": "S3-COMPLIANCE",
+    "topic_name": "법규준수·투자자분쟁예방",
+    "question_type": "mcq",
+    "difficulty": "easy",
+    "calc_required": true,
+    "law_related": true,
+    "keyword": "적합성 원칙",
+    "tags": [
+      "적합성",
+      "고객",
+      "정보"
+    ],
+    "stem": "연 5% 수익률로 2년 운용한 100만원의 최종 자산은? (복리 적용)",
+    "choices": [
+      "105만원",
+      "110.25만원",
+      "115만원",
+      "120만원"
+    ],
+    "correct": 1,
+    "explanation": "최종 자산 = 100만원 × (1.05)² = 100 × 1.1025 = 110.25만원. 복리 효과로 인해 단순 계산(110만원)보다 0.25만원이 더 증가한다.",
+    "wrong_explanations": {
+      "0": "1년만 계산한 값",
+      "2": "단순 계산: 100 × (1 + 0.05 × 2) = 110 (복리 미적용)",
+      "3": "과다 계산"
+    },
+    "coach_message_short": "복리 = 원금 × (1+수익률)^기간! 매년 이자에 이자 붙음",
+    "source_ref": "제3과목 제3장 투자권유 기본 원칙",
+    "estimated_sec": 50
   }
 ]
