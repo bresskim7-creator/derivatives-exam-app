@@ -2208,7 +2208,7 @@
     "topic_name": "직무윤리",
     "question_type": "mcq",
     "difficulty": "easy",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "직무윤리의 정의",
     "tags": [

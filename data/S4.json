@@ -706,7 +706,7 @@
     "topic_name": "파생상품시장",
     "question_type": "mcq",
     "difficulty": "high",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "자동권리행사",
     "tags": [
@@ -2000,7 +2000,7 @@
     "topic_name": "자본시장 관련 법규",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "상대적 전문투자자 자산요건",
     "tags": [
@@ -2069,7 +2069,7 @@
     "topic_name": "자본시장 관련 법규",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "인가대상 자기자본요건",
     "tags": [
@@ -2137,7 +2137,7 @@
     "topic_name": "자본시장 관련 법규",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "대손충당금 적립비율",
     "tags": [
@@ -2485,7 +2485,7 @@
     "topic_name": "거래소·협회 규정",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "일일정산 갱신차금",
     "tags": [
@@ -2520,7 +2520,7 @@
     "topic_name": "자본시장 관련 법규",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "내부자거래 규제 대상",
     "tags": [
@@ -2555,7 +2555,7 @@
     "topic_name": "자본시장 관련 법규",
     "question_type": "mcq",
     "difficulty": "hard",
-    "calc_required": true,
+    "calc_required": false,
     "law_related": true,
     "keyword": "단기매매차익 반환의무",
     "tags": [
