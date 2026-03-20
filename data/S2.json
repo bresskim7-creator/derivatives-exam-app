@@ -1806,7 +1806,8 @@
     },
     "coach_message_short": "스왑 = 미래 + 반대 방향 현금흐름 교환",
     "source_ref": "제1장 스왑의 기초",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "스왑은 정의상 '미리 정한 계약조건에 따라 장래의 일정 시점에 서로 다른 방향(정반대)의 자금흐름을 교환'하는 거래입니다. 핵심은 '미래', '일정 시점', '서로 다른 방향'입니다.\n스왑 = 미래 + 반대 방향 현금흐름 교환\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-002",
@@ -1840,7 +1841,8 @@
     },
     "coach_message_short": "금리스왑: 같은 통화, 이자만 교환 / 통화스왑: 다른 통화, 원금+이자 교환",
     "source_ref": "제1장 스왑의 기초",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금리스왑은 동종통화에서 고정금리와 변동금리의 이자만 교환하고 원금은 교환하지 않습니다. 반면 통화스왑은 서로 다른 통화 간에 원금과 이자를 모두 교환합니다.\n금리스왑: 같은 통화, 이자만 교환 / 통화스왑: 다른 통화, 원금+이자 교환\n'맞는 것 찾기'에서는 확실히 틀린 선택지부터 제거하세요."
   },
   {
     "question_id": "S2-NEW-003",
@@ -1874,7 +1876,8 @@
     },
     "coach_message_short": "Short(Receiver) = 고정금리 수취 + 변동금리 지급",
     "source_ref": "제1장 스왑시장의 주요 용어",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "Short Swap(또는 Receiver Swap)은 고정금리를 수취하고 변동금리를 지급하는 스왑입니다. Long Swap(Payer Swap)과 반대의 현금흐름을 가집니다.\nShort(Receiver) = 고정금리 수취 + 변동금리 지급\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-004",
@@ -1908,7 +1911,8 @@
     },
     "coach_message_short": "Reset Date = 변동금리 선택하는 기준일",
     "source_ref": "제1장 스왑거래의 주요 날짜",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "Reset Date는 변동금리(floating rate)를 선택하는 기준이 되는 날입니다. 이 날에 LIBOR나 CD금리 같은 벤치마크 금리를 조사하여 다음 이자교환 기간에 적용할 변동금리를 결정합니다.\nReset Date = 변동금리 선택하는 기준일\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-005",
@@ -1942,7 +1946,8 @@
     },
     "coach_message_short": "절약금리 합계 = 고정금리 우위 + 변동금리 우위",
     "source_ref": "제2장 이자율스왑 거래",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "비교우위에 의한 절약금리 = 고정금리 차이 - 변동금리 차이 = (6%-5%) - (L+1. 5%-L-1%) = 1% - 0.\n절약금리 합계 = 고정금리 우위 + 변동금리 우위\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   },
   {
     "question_id": "S2-NEW-006",
@@ -1976,7 +1981,8 @@
     },
     "coach_message_short": "통화스왑 평가손익 = 수취 현재가치 - 지급 현재가치",
     "source_ref": "제2장 통화스왑의 평가",
-    "estimated_sec": 75
+    "estimated_sec": 75,
+    "coach_message_long": "통화스왑의 평가손익 = 원화 수취 현재가치 - 달러 지급 현재가치의 원화 환산액 = 250,000,000원 - (800,000달러 × 1,000원) = 250,000,000원 - 800,000,000원 = -550,000,000원 손실.\n통화스왑 평가손익 = 수취 현재가치 - 지급 현재가치\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   },
   {
     "question_id": "S2-NEW-007",
@@ -2010,7 +2016,8 @@
     },
     "coach_message_short": "Accreting/Amortizing/Rollercoaster = 비표준형 스왑",
     "source_ref": "제3장 스왑의 종류",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "표준형 스왑은 일반적으로 원금이 일정하게 유지되는 구조입니다. Accreting, Amortizing, Rollercoaster 스왑은 모두 비표준형 스왑으로 분류되며, 표준형 스왑과는 구분됩니다.\nAccreting/Amortizing/Rollercoaster = 비표준형 스왑\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-008",
@@ -2044,7 +2051,8 @@
     },
     "coach_message_short": "스왑 가격 = 금리평가이론 + 신용위험 + 시장 유동성",
     "source_ref": "제3장 스왑의 가격산정",
-    "estimated_sec": 65
+    "estimated_sec": 65,
+    "coach_message_long": "금리스왑의 스왑 가격도 결국 금리평가이론과 밀접한 관련이 있습니다. 비교우위를 통해 절약금리가 발생하고, 이는 양국 금리 간 차이에 기반합니다.\n스왑 가격 = 금리평가이론 + 신용위험 + 시장 유동성\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-009",
@@ -2077,7 +2085,8 @@
     },
     "coach_message_short": "파생결합증권 = 채권 + 파생상품(옵션/선물)",
     "source_ref": "제4장 파생결합증권의 기초",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "파생결합증권은 기초자산(주가지수, 환율, 금리 등)의 가격 변동에 따라 수익률이 결정되도록 설계되었으며, 기초 채권과 파생상품(옵션, 선물 등)을 결합한 구조입니다.\n파생결합증권 = 채권 + 파생상품(옵션/선물)\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-010",
@@ -2111,7 +2120,8 @@
     },
     "coach_message_short": "ELS = 수익률이 고정되지 않음, 기초자산에 연동",
     "source_ref": "제4장 주식연계증권",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ELS는 주식연계증권으로, 기초자산의 가격 변동에 따라 수익률이 변동합니다. 고정된 수익률이 보장되지 않으며, 기초자산 가격에 연동하여 수익 또는 손실이 결정됩니다.\nELS = 수익률이 고정되지 않음, 기초자산에 연동\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-011",
@@ -2145,7 +2155,8 @@
     },
     "coach_message_short": "낙인형 = 배리어 터치 → 손실 가능성 활성화",
     "source_ref": "제4장 낙인형 ELS",
-    "estimated_sec": 50
+    "estimated_sec": 50,
+    "coach_message_long": "낙인형 ELS는 기초자산이 사전에 정한 배리어 수준 이하로 내려가는 순간(Knock-In) 손실 가능성이 활성화되는 구조입니다. 배리어를 터치하면 보호 기능이 사라지고 원금손실 위험이 발생합니다.\n낙인형 = 배리어 터치 → 손실 가능성 활성화\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-012",
@@ -2179,7 +2190,8 @@
     },
     "coach_message_short": "파생결합증권 판매 = 상품공시 + 적합성 심사 필수",
     "source_ref": "제4장 파생결합증권 규제",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "금감위의 규제에 따르면 투자중개회사는 파생결합증권 판매 시 반드시 고객의 투자경험, 위험수용 능력, 재무상황 등을 종합적으로 고려한 적합성 심사를 수행해야 합니다.\n파생결합증권 판매 = 상품공시 + 적합성 심사 필수\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-013",
@@ -2213,7 +2225,8 @@
     },
     "coach_message_short": "파생결합증권 수익 = 초기 투자 + 구조에 따른 손익",
     "source_ref": "제4장 파생결합증권 수익 구조",
-    "estimated_sec": 70
+    "estimated_sec": 70,
+    "coach_message_long": "기초자산 하락률 = 10%. 배수 적용 손실률 = 10% × 2배 = 20%.\n파생결합증권 수익 = 초기 투자 + 구조에 따른 손익\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   },
   {
     "question_id": "S2-NEW-014",
@@ -2247,7 +2260,8 @@
     },
     "coach_message_short": "ETN = 발행기관 신용위험 포함 / ELS = 기초자산 위험만 포함",
     "source_ref": "제4장 ETN과 ELS 비교",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "ETN(Exchangeable Traded Note)은 채권이지만 발행기관(예: 은행)이 파산하면 원금손실이 발생할 수 있습니다(발행기관 신용위험). 반면 ELS는 기초자산 성과에 연동하므로 기초자산의 가격변동만이 주요 요인입니다.\nETN = 발행기관 신용위험 포함 / ELS = 기초자산 위험만 포함\n'맞는 것 찾기'에서는 확실히 틀린 선택지부터 제거하세요."
   },
   {
     "question_id": "S2-NEW-015",
@@ -2281,7 +2295,8 @@
     },
     "coach_message_short": "CDS = 신용위험 거래, 프리미엄 지급",
     "source_ref": "제4장 신용파생상품",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "CDS(Credit Default Swap)는 신용위험을 거래하는 파생상품으로, 채권 보유자가 신용위험을 제3자에게 이전하고 그 대가로 프리미엄을 지급하는 구조입니다.\nCDS = 신용위험 거래, 프리미엄 지급\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-016",
@@ -2315,7 +2330,8 @@
     },
     "coach_message_short": "Up-and-Out = 올라가면 소멸 / Down-and-In = 내려가야 활성화",
     "source_ref": "제5장 장애옵션",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "Up-and-Out 옵션은 배리어 이상으로 올라가면 옵션이 소멸(Out)하는 구조입니다. '옵션이 유지'되는 것이 아니라 '옵션이 소멸'되는 것이 핵심입니다.\nUp-and-Out = 올라가면 소멸 / Down-and-In = 내려가야 활성화\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-017",
@@ -2349,7 +2365,8 @@
     },
     "coach_message_short": "배리어옵션 가격 = 배리어 터치 확률에 반비례",
     "source_ref": "제5장 장애옵션의 가격결정",
-    "estimated_sec": 65
+    "estimated_sec": 65,
+    "coach_message_long": "Knock-Out 옵션의 배리어가 행사가격에 가까울수록, 기초자산이 배리어에 도달하여 옵션이 소멸될 확률이 높아진다. 따라서 옵션 가격은 낮아진다(높아지는 것이 아님).\n배리어옵션 가격 = 배리어 터치 확률에 반비례\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-018",
@@ -2383,7 +2400,8 @@
     },
     "coach_message_short": "평균옵션 = 경로의존형, 여러 시점 가격 평균 사용",
     "source_ref": "제5장 평균옵션",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "평균옵션(Asian Option)은 기초자산의 일정 기간(예: 월간, 분기간)의 여러 시점 가격을 평균하여 행사가격 또는 만기 수익을 결정하는 옵션입니다. 경로의존형 옵션으로 분류됩니다.\n평균옵션 = 경로의존형, 여러 시점 가격 평균 사용\n이 유형은 핵심 개념을 정확히 이해하고 있어야 풀 수 있어요."
   },
   {
     "question_id": "S2-NEW-019",
@@ -2417,7 +2435,8 @@
     },
     "coach_message_short": "레인보우옵션 = 2개 이상 기초자산 포함 (4개 이상 필수 아님)",
     "source_ref": "제5장 다중기초자산 옵션",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "레인보우옵션은 2개 이상의 기초자산을 포함하면 분류되는 다중기초자산 옵션입니다. 반드시 4개 이상이어야 하는 것은 아닙니다.\n레인보우옵션 = 2개 이상 기초자산 포함 (4개 이상 필수 아님)\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-020",
@@ -2451,7 +2470,8 @@
     },
     "coach_message_short": "Up-and-Out 옵션 = 소멸 위험으로 가장 저렴",
     "source_ref": "제5장 이색옵션 가격 비교",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "Up-and-Out 콜옵션은 배리어에 터치하면 소멸하므로, 위험이 제한되어 일반 콜옵션보다 저렴합니다. 특히 배리어가 인상되면 소멸 위험이 높아져 더욱 저렴해집니다.\nUp-and-Out 옵션 = 소멸 위험으로 가장 저렴\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   },
   {
     "question_id": "S2-NEW-021",
@@ -2485,7 +2505,8 @@
     },
     "coach_message_short": "OTC = 거래소 X, 거래상대방 간 직접 거래",
     "source_ref": "제6장 장외파생상품의 기초",
-    "estimated_sec": 40
+    "estimated_sec": 40,
+    "coach_message_long": "장외파생상품(OTC)의 정의상 거래소를 통하지 않고 거래상대방 간 직접 거래되는 상품입니다. '거래소를 통해서만 거래되어야 한다'는 설명은 오히려 거래소 상장 파생상품의 특징이므로 거리가 멉니다.\nOTC = 거래소 X, 거래상대방 간 직접 거래\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-022",
@@ -2520,7 +2541,8 @@
     },
     "coach_message_short": "포워드 = 만기까지 고정, 변경/취소 어려움",
     "source_ref": "제6장 포워드 계약",
-    "estimated_sec": 45
+    "estimated_sec": 45,
+    "coach_message_long": "포워드 계약은 OTC 거래로서 거래상대방과의 직접 거래이며, 일단 체결되면 계약 내용 변경이나 취소가 매우 어렵습니다. 이것이 포워드 거래의 특징 중 하나입니다.\n포워드 = 만기까지 고정, 변경/취소 어려움\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-023",
@@ -2554,7 +2576,8 @@
     },
     "coach_message_short": "금리 높은 통화 = 선도환에서 약세 (프리미엄)",
     "source_ref": "제6장 포워드 가격결정",
-    "estimated_sec": 65
+    "estimated_sec": 65,
+    "coach_message_long": "금리평가이론에 의한 선도환율 = 현물환율 × (1+원화이자율)/(1+달러이자율) = 1,000 × (1. 03) = 1,000 × 1.\n금리 높은 통화 = 선도환에서 약세 (프리미엄)\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   },
   {
     "question_id": "S2-NEW-024",
@@ -2589,7 +2612,8 @@
     },
     "coach_message_short": "포워드 = 낮은 투명성, 높은 유연성 / 선물 = 높은 투명성, 낮은 유연성",
     "source_ref": "제6장 포워드와 선물 비교",
-    "estimated_sec": 60
+    "estimated_sec": 60,
+    "coach_message_long": "포워드는 거래상대방 간 직접 거래이므로 가격 결정이 협상을 통해 결정되고, 투명성이 낮습니다. 반대로 선물은 거래소에서 공개적으로 거래되므로 가격이 공개되고 투명합니다.\n포워드 = 낮은 투명성, 높은 유연성 / 선물 = 높은 투명성, 낮은 유연성\n'틀린 것 찾기' 문제에서는 선택지를 하나씩 대조하면서 소거법을 쓰는 게 안전해요."
   },
   {
     "question_id": "S2-NEW-025",
@@ -2623,6 +2647,7 @@
     },
     "coach_message_short": "선도 손익 = (현물환율 - 선도환율) × 거래량",
     "source_ref": "제6장 포워드 손익 계산",
-    "estimated_sec": 55
+    "estimated_sec": 55,
+    "coach_message_long": "선도 매입(롱): 1,100원에 매입하기로 함 / 현물환율: 1,050원 / 손실 = (1,050 - 1,100) × 100만달러 = -50원 × 100만달러 = -5,000만원 손실. 롱 포지션에서 현물이 내려가면 손실이 발생합니다.\n선도 손익 = (현물환율 - 선도환율) × 거래량\n계산 문제에서는 공식을 정확히 외우고, 단위 변환에 주의하세요."
   }
 ]
